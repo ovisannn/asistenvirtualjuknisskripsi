@@ -1,0 +1,63 @@
+{"intents": [
+    {
+        "tag": "sapa",
+        "patterns": ["Hi", "hallo", "apa kabar", "selamat pagi", "selamat sore", "selamat siang"],
+        "responses": ["Hello!", "Hi", "Ada yang bisa saya bantu?", "senang bertemu denganmu!"],
+        "context_set": ""
+    },
+    {
+        "tag": "selamat tinggal",
+        "patterns": ["salamat tinggal", "kita sambung nanti", "aku pergi dulu"],
+        "responses": ["sedih melihat kamu pergi", "oke kita sambung lagi nanti!", "selamat tinggal !"],
+        "context_set": ""
+    },
+    {
+        "tag": "umur",
+        "patterns": ["umur", "berapa umur kamu"],
+        "responses": [""],
+        "context_set": ""
+    },
+    {
+        "tag": "nama",
+        "patterns": ["siapa nama kamu", "aku bisa memanggilmu apa", "nama"],
+        "responses": ["kamu bisa manggil aku noesa", "Aku Noesa!", "namaku Noesa ! salam kenal !"],
+        "context_set": ""
+    },
+    {
+        "tag": "jam",
+        "patterns":["jam", "jam berapa", "sekarang jam berapa", ""],
+        "responses":[],
+        "context_set":""
+    },
+    {
+        "tag": "terima kasih",
+        "patterns":["terimakasih", "terima kasih", "tq"],
+        "responses":["senang membantu", "dengan senang hati", "terima kasih kembali"],
+        "context_set":""
+    },
+    {
+        "tag": "hari",
+        "patterns":["sekarang hari apa", "hari ini hari apa", "apa hari ini?", "hari ini apa"],
+        "responses":[],
+        "context_set":""
+    },
+    {
+        "tag": "cinta",
+        "patterns":["aku cinta kamu", "apakah kamu mencintaiku", "love u", "aku suka sama kamu"],
+        "responses":["aku lebih mencintaimu", "aku juga, tapi sayang aku bukan manusia", "iya sayang, aku juga"],
+        "context_set":""
+    },
+    {
+        "tag" : "cuaca",
+        "patterns": ["cuaca hari ini", "bagaimana cuaca hari ini", "apakah cuaca hari ini baik", "cuaca", "info cuaca"],
+        "responses":[],
+        "context_set":[]
+    },
+    {
+        "tag" : "hari nasional",
+        "patterns": ["info libur", "info libur bulan ini", "kapan ada libur nasional"],
+        "responses":[],
+        "context_set":[]        
+    }
+]
+}

@@ -1,0 +1,12 @@
+   // cuaca ok
+        //get city from biodata
+    // hari nasional ok
+        //libur nasional besok
+        //libur today
+    // jokes
+    // kbbi
+    // stories
+    // taskmanagement
+    //     ask today task
+    //     pomodoro timer
+    //     set task
