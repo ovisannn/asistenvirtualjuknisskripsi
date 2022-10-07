@@ -1,4 +1,5 @@
-{"intents": [
+{"intents": 
+[
     {
         "tag": "sapa",
         "patterns": ["Hi", "hallo", "apa kabar", "selamat pagi", "selamat sore", "selamat siang"],
@@ -6,58 +7,64 @@
         "context_set": ""
     },
     {
-        "tag": "selamat tinggal",
-        "patterns": ["salamat tinggal", "kita sambung nanti", "aku pergi dulu"],
-        "responses": ["sedih melihat kamu pergi", "oke kita sambung lagi nanti!", "selamat tinggal !"],
-        "context_set": ""
-    },
-    {
-        "tag": "umur",
-        "patterns": ["umur", "berapa umur kamu"],
-        "responses": [""],
-        "context_set": ""
-    },
-    {
-        "tag": "nama",
-        "patterns": ["siapa nama kamu", "aku bisa memanggilmu apa", "nama"],
-        "responses": ["kamu bisa manggil aku noesa", "Aku Noesa!", "namaku Noesa ! salam kenal !"],
-        "context_set": ""
-    },
-    {
-        "tag": "jam",
-        "patterns":["jam", "jam berapa", "sekarang jam berapa", ""],
-        "responses":[],
+        "tag":"pengertian skripsi",
+        "patterns":["apa itu skripsi?", "pengertian skripsi", "apa sih skripsi itu", "skripsi adalah", "beri tahu saya tentang skripsi", "definisi skripsi adalah"],
+        "responses":"Skripsi adalah istilah yang digunakan di Indonesia untuk mengilustrasikan suatu karya tulis ilmiah berupa paparan tulisan hasil penelitian sarjana S1 yang membahas suatu permasalahan/fenomena dalam bidang ilmu tertentu dengan menggunakan kaidah-kaidah yang berlaku. Dengan demikian, skripsi merupakan hasil penelitian yang disusun dengan menggunakan metode ilmiah baku serta memenuhi bidang keilmuan dengan apa yang dipelajari mahasiswa di Program Studinya",
         "context_set":""
     },
     {
-        "tag": "terima kasih",
-        "patterns":["terimakasih", "terima kasih", "tq"],
-        "responses":["senang membantu", "dengan senang hati", "terima kasih kembali"],
+        "tag":"asesmen",
+        "patterns":["aspek apa saja yang perlu diperhatikan dalam skripsi","apa saja aspek yang perlu diperhatikan", "asesmen apa yang perlu diperhatikan"],
+        "responses":["Ada dua hal asesmen yang akan dilakukan, yaitu aspek kelayakan proposal skripsi dan aspek kecukupan skripsi yang terbagi kedalam aspek kecukupan umum skripsi dan aspek kecukupan khusus skripsi untuk mengukur tingkat kesesuaian dan kedalaman skripsi sebagaimana yang diinginkan"],
         "context_set":""
     },
     {
-        "tag": "hari",
-        "patterns":["sekarang hari apa", "hari ini hari apa", "apa hari ini?", "hari ini apa"],
-        "responses":[],
+        "tag":"klasifikasi tipe penelitian skripsi",
+        "patterns":["apa aja tipe penelitian skripsi","apa klasifikasi tipa penelitian skripsi","ada berapa tipe penelitian skripsi", "tipe skripsi ada apa saja","apa klasifikasi skripsi"],
+        "responses":["Tipe penelitian diklasifikasikan berdasarkan luaran utama yang dihasilkan dari proses penelitian skripsi tersebut. Berdasarkan luaran utama tersebut, maka tipe penelitian skripsi terbagi menjadi 3, yaitu system engineering, design & construction dan descriptive & analytics"],
+        "context_set":"klasifikasi penelitian"
+    },
+    {
+        "tag":"pengambilan klasifikasi",
+        "patterns":["apakah boleh mengambil lebih dari satu klasifikasi", "bolehkah lebih dari satu tipe", " apakah boleh lebih dari 1 tipe klasifikasi", "apakah boleh mengambil 2 dua 3 tiga tipe", "apakah boleh mengambil semua tipe klasifikasi"],
+        "responses":["Pada pelaksanaannya tetap perlu diingat bahwa sangat dimungkinkan pada sebuah penelitian untuk melibatkan satu atau lebih tipe penelitian berdasarkan diskusi komprehensif antara mahasiswa dan pembimbingnya sesuai dengan domain permasalahan penelitian yang dipilih. Meskipun demikian, tetap bisa ditentukan tipe penelitian yang dominan dari kombinasi beberapa tipe penelitian tersebut yang nanti akan menentukan tingkat kedalaman skripsi yang harus diperhatikan"],
+        "context_set":"klasifikasi penelitian"
+    },
+    {
+        "tag":"pengertian system engineering",
+        "patterns":["apa itu tipe penelitian system sistem engineering", "apa itu sistem engineering", "apasih system sistem engineering itu", "system sistem engineering", "penelitian model apa system sistem engineering"],
+        "responses":["Penelitian System Engineering adalah tipe penelitian skripsi yang menghasilkan luaran utama sebagai solusi terhadap permasalahan yang diangkat dalam penelitian. Penelitian tipe ini akan membuat sebuah produk utuh sebagai satu kesatuan sistem (perangkat lunak/perangkat keras/jaringan) dari sesuatu yang belum ada menjadi ada dengan menerapkan prinsip-prinsip rekayasa secara utuh, yang meliputi analisis, perancangan (desain), konstruksi dan pengujian."],
+        "context_set":"system engineering"
+    },
+    {
+        "tag":"subtipe system engineering",
+        "patterns":["system engineering bahas apa aja", "dalam system engineering ada apa saja", "subtipe system engineering"],
+        "responses":["dalam System Engineering terdapat 2 subtipe yaitu System Development (Pengembangan Sistem) dan System Enchancement (Pengembangan Lanjut Sistem)"],
+        "context_set":"system engineering"
+    },
+    {
+        "tag":"System Development",
+        "patterns":[""],
+        "responses":["Sebuah kegiatan penelitian implementatif untuk membuat sebuah produk/artefak utama utuh (perangkat lunak/perangkat keras/kerangka kerja/jaringan komputer/dokumen instruksional) dari sesuatu yang belum ada menjadi ada dengan menerapkan prinsip-prinsip rekayasa secara utuh, yang meliputi analisis, perancangan, konstruksi, dan pengujian"],
         "context_set":""
     },
     {
-        "tag": "cinta",
-        "patterns":["aku cinta kamu", "apakah kamu mencintaiku", "love u", "aku suka sama kamu"],
-        "responses":["aku lebih mencintaimu", "aku juga, tapi sayang aku bukan manusia", "iya sayang, aku juga"],
+        "tag":"System Enchancement",
+        "patterns":[""],
+        "responses":["Sebuah kegiatan penelitian implementatif untuk membuat sebuah produk/artefak utama utuh (perangkat lunak/perangkat keras/kerangka kerja/jaringan komputer/dokumen instruksional) yang dikembangkan dari sistem yang sudah ada dengan menerapkan prinsip-prinsip rekayasa secara utuh, yang meliputi analisis, perancangan, konstruksi dan pengujian. Produk/artefak utama yang dihasilkan harus memenuhi aspek kompatibilitas dengan sistem yang sudah ada sebelumnya."],
         "context_set":""
     },
     {
-        "tag" : "cuaca",
-        "patterns": ["cuaca hari ini", "bagaimana cuaca hari ini", "apakah cuaca hari ini baik", "cuaca", "info cuaca"],
-        "responses":[],
-        "context_set":[]
+        "tag":"",
+        "patterns":[""],
+        "responses":[""],
+        "context_set":""
     },
     {
-        "tag" : "hari nasional",
-        "patterns": ["info libur", "info libur bulan ini", "kapan ada libur nasional"],
-        "responses":[],
-        "context_set":[]        
+        "tag":"",
+        "patterns":[""],
+        "responses":[""],
+        "context_set":""
     }
 ]
 }
