@@ -9,7 +9,7 @@
     {
         "tag":"pengertian skripsi",
         "patterns":["apa itu skripsi?", "pengertian skripsi", "apa sih skripsi itu", "skripsi adalah", "beri tahu saya tentang skripsi", "definisi skripsi adalah"],
-        "responses":"Skripsi adalah istilah yang digunakan di Indonesia untuk mengilustrasikan suatu karya tulis ilmiah berupa paparan tulisan hasil penelitian sarjana S1 yang membahas suatu permasalahan/fenomena dalam bidang ilmu tertentu dengan menggunakan kaidah-kaidah yang berlaku. Dengan demikian, skripsi merupakan hasil penelitian yang disusun dengan menggunakan metode ilmiah baku serta memenuhi bidang keilmuan dengan apa yang dipelajari mahasiswa di Program Studinya",
+        "responses":["Skripsi adalah istilah yang digunakan di Indonesia untuk mengilustrasikan suatu karya tulis ilmiah berupa paparan tulisan hasil penelitian sarjana S1 yang membahas suatu permasalahan/fenomena dalam bidang ilmu tertentu dengan menggunakan kaidah-kaidah yang berlaku. Dengan demikian, skripsi merupakan hasil penelitian yang disusun dengan menggunakan metode ilmiah baku serta memenuhi bidang keilmuan dengan apa yang dipelajari mahasiswa di Program Studinya"],
         "context_set":""
     },
     {
@@ -55,15 +55,105 @@
         "context_set":""
     },
     {
-        "tag":"",
-        "patterns":[""],
-        "responses":[""],
+        "tag":"design and construction",
+        "patterns":["apa itu tipe penelitian design and construction", "penelitian design and construction", "pengertian penelitian design dan construction", "pengertian desain dan konstruksi", "apa itu pengertian sistem desain dan konstruksi"],
+        "responses":["Penelitian Design & Construction adalah tipe penelitian skripsi yang menghasilkan luaran utama perancangan/kerangka kerja atau perangkat lunak sebagai solusi terhadap permasalahan yang diangkat dalam penelitian."],
+        "context_set":""
+    },
+    {
+        "tag":"tipe design and construction",
+        "patterns":["apa aja yang dibahas dalam desain dan konstruksi", "apa saja sub tipe dalam desain dan konstruksi", "tipe tipe desain dan konstruksi"],
+        "responses":["Dalam penelitian design & construction memeiliki 3 subtipe yaitu: System Design, System Construction, dan System Testing"],
+        "context_set":""
+    },
+    {
+        "tag":"penelitian deskriptif",
+        "patterns":["apa itu penelitian deskriptif", "apa pengertian dari penelitian deskriptif", "penelitian descriptive", "apasih penelitian deskriptif descriptive itu"],
+        "responses":["Sebuah kegiatan penelitian non-implementatif yang dilakukan untuk menjelaskan karakteristik objek penelitian dari fenomena/situasi tertentu yang sedang diteliti berdasarkan hasil analisis terhadap data yang diperoleh. Produk/artefak utama yang dihasilkan adalah hasil investigasi."],
+        "context_set":""
+    },
+    {
+        "tag":"penelitian analytics",
+        "patterns":["apa itu penelitian analitik analytics", "apa pengeritian dari analitik analytics", " analitik analytics", "apasih penelitian analitik analytics itu"],
+        "responses":["Sebuah kegiatan penelitian non-implementatif yang dilakukan untuk menjelaskan derajat hubungan antar elemen dalam objek penelitian dengan fenomena/situasi tertentu yang sedang diteliti. Produk/artefak utama yang dihasilkan adalah hasil analisis."],
+        "context_set":""
+    },
+    {
+        "tag":"klasifikasi bidang skripsi",
+        "patterns":["apa saja klasifikasi bidang dalam skripsi", "klasifikasi bidang skripsi", "skripsi klasifikasinya apa saja"],
+        "responses":["(1) Rekayasa Perangkat Lunak, (2) Manajemen Sistem Informasi, (3) Jaringan dan Keamanan, (4) Embedded System, (5) Komputasi Cerdas, dan (5) Data Science"],
+        "context_set":""
+    },
+    {
+        "tag":"Rekayasa Perangkat Lunak",
+        "patterns":["apa itu bidang RPL rekayasa perangkat lunak", "apasih bidang rpl rekayasa perangkat lunak", "pengertian rpl rekayasa perangkat lunak", "rpl rekayasa perangkat lunak"],
+        "responses":["Bidang Rekayasa Perangkat Lunak (RPL) mencakup bidang yang mempelajari pengembangan, operasi serta pemeliharaan perangkat lunak, meliputi juga metode, bahasa dan alat bantu (teknologi) yang dapat digunakan dalam rekayasa perangkat lunak tersebut. Bidang ilmu yang dipelajari dan menjadi bidang skripsi RPL mengikuti bidang kajian yang berada dalam lingkup Software Engineering Body of Knowledge (SWEBOK), meliputi://1. Software requirement //2. Software design//3. Software construction//4. Software testing//5. Software maintenance//6. Software quality//7. Software configuration management//8. Software engineering management//9. Software engineering process//10.Software engineering models and method//11. Software engineering professional practice//"],
+        "context_set":""
+    },
+    {
+        "tag":"Manajemen Sistem Informasi",
+        "patterns":["apa itu manajemen sistem informasi", "manajemen informasi", "apasih bidang manajemen informasi", "pengertian manajemen sistem informasi"],
+        "responses":["Bidang Manajemen Sistem Informasi (MSI) menaungi berbagai riset keahlian Sistem Informasi mulai dari aspek strategis, manajemen proyek, peningkatan performa proses bisnis dengan dukungan SI/TI sampai pada evaluasi kinerja TI dalam mendukung organisasi. Topik-topik penelitian yang termasuk ke dalam MSI antara lain://1. TI sebagai tools Strategi//2. Penerapan E-Government//3. Manajemen & Perubahan Proyek TI//4. Kota Cerdas//5. Kematangan Tata Kelola TI (IT Maturity)//6. Pengelolaan Layanan TI//7. Penjaminan Mutu Proses TI//8. Pengelolaan Risiko TI//9. IT Productivity Paradox//10.Evaluasi Kinerja"],
+        "context_set":""
+    },
+    {
+        "tag":"jaringan dan keamanan",
+        "patterns":["apa itu bidang jaringan dan keamanan", "jaringan dan keamanan", "pengertian bidang jaringan dan keamanan", "apasih bidang jaringan dan keamanan itu"],
+        "responses":["Bidang jaringan dan keamanan (JK) menaungi berbagai riset pada bidang jaringan (network) dan keamanan (security) meliputi://1. Arsitektur Jaringan//2. Optimasi Jaringan//3. Keamanan Jaringan//4. Keamanan Informasi//5. Teori Graf//6. Digital Forensik"],
+        "context_set":""
+    },
+    {
+        "tag":"embedded sistem",
+        "patterns":["apa itu embedded sistem embeded system","embedded sistem embeded system", "apasih sih embedded sistem embeded system itu"],
+        "responses":["Bidang embedded system (ES) menaungi berbagai riset di bidang sistem tertanam meliputi://1. Internet of Things (IoT)//2. Robotika//3. Sistem Informasi Geografis (SIG)//4. Hardware//5. Embedded System untuk Monitoring//6. Sensor / Mikrokontroler//7. dll"],
+        "context_set":""
+    },
+    {
+        "tag":"komputasi cerdas",
+        "patterns":["apa itu komputasi cerdas", "apa itu bidang komputasi cerdas", "apasih komputasi cerdas itu"],
+        "responses":["Bidang Komputasi Cerdas (KC) menaungi berbagai riset yang berada pada komputasi cerdas, meliputi ://1. Pengolahan Citra Digital//2. Analisis Data Multivariat//3. Data Mining//4. Visi Komputer//5. Sistem Temu Kembali Informasi//6. Kecerdasan Buatan//"],
+        "context_set":""
+    },
+    {
+        "tag":"data science",
+        "patterns":["apa itu bidang dadta science", "apa sih data science itu", "data science"],
+        "responses":["Bidang Data Science (DS) merupakan bidang yang menaungi topik penelitian yang meliputi ://1. Big Data//2. Pemodelan dan Analisis Data//3. Natural Language Processing (NLP)//4. Social Media Analysis//5. High Performance Computing (HPC)//"],
+        "context_set":""
+    },
+    {
+        "tag":"pemetaan bidang skripsi",
+        "patterns":["pemetaan bidang skripsi", "ada pemetaan bidang skripsi ga", "bagaimana pemetaan bidang skripsi"],
+        "responses":["#pemetaan bidang pict"],
+        "context_set":""
+    },
+    {
+        "tag":"aspek kelayakan proposal skripsi",
+        "patterns":[],
+        "responses":[],
         "context_set":""
     },
     {
         "tag":"",
-        "patterns":[""],
-        "responses":[""],
+        "patterns":[],
+        "responses":[],
+        "context_set":""
+    },
+    {
+        "tag":"",
+        "patterns":[],
+        "responses":[],
+        "context_set":""
+    },
+    {
+        "tag":"",
+        "patterns":[],
+        "responses":[],
+        "context_set":""
+    },
+    {
+        "tag":"",
+        "patterns":[],
+        "responses":[],
         "context_set":""
     }
 ]
