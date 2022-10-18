@@ -128,6 +128,54 @@
     },
     {
         "tag":"aspek kelayakan proposal skripsi",
+        "patterns":["aspek kelayakan proposal skripsi", "apa aspek kelayakan proposal skripsi", "aspek kelayakan proposal skripsi itu apa sih"],
+        "responses":["Aspek kelayakan proposal skripsi merupakan kriteria minimum yang harus dipenuhi setiap mahasiswa dalam pengajuan proposal skripsi dengan tujuan meningkatkan kualitas skripsi mahasiswa Fakultas Ilmu Komputer Universitas Jember. Dalam pelaksanaannya, aspek kelayakan ini ditinjau pada usulan skripsi dalam bentuk proposal yang dilakukan ketika pelaksanaan seminar proposal. Calon Dosen Pembimbing dapat diusulkan oleh mahasiswa dengan persetujuan Calon Pembimbing yang bersangkutan. Kedua Calon Pembimbing diharuskan memiliki bidang keahlian/bidang minat penelitian (research interests) yang menunjang dan sesuai dengan usulan skripsi dan memiliki kontribusi sesuai bidang keahlian."],
+        "context_set":""
+    },
+    {
+        "tag":"list kelayakan proposal skripsi",
+        "patterns":["list kelayakan proposal skripsi", "apa aja list kelayakan proposal skripsi", "macam kelayakan proposal skripsi", "sebutkan apa saya aspek kelayakan proposal skripsi"],
+        "responses":["1. Kelayakan latar belakang//2. Kelayakan rumusan masalah dan tujuan//3. Kelayakan landasan kepustakaan//4. kelayakan metodologi penelitian//5. Kelayakan daftar referensi"],
+        "context_set":""
+    },
+    {
+        "tag":"",
+        "patterns":[],
+        "responses":[],
+        "context_set":""
+    },
+    {
+        "tag":"",
+        "patterns":[],
+        "responses":[],
+        "context_set":""
+    },
+    {
+        "tag":"",
+        "patterns":[],
+        "responses":[],
+        "context_set":""
+    },
+    {
+        "tag":"",
+        "patterns":[],
+        "responses":[],
+        "context_set":""
+    },
+    {
+        "tag":"",
+        "patterns":[],
+        "responses":[],
+        "context_set":""
+    },
+    {
+        "tag":"",
+        "patterns":[],
+        "responses":[],
+        "context_set":""
+    },
+    {
+        "tag":"",
         "patterns":[],
         "responses":[],
         "context_set":""
