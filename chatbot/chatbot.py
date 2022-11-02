@@ -9,6 +9,8 @@ import numpy as np
 
 import nltk
 from nltk.stem import WordNetLemmatizer
+from Sastrawi.Stemmer.StemmerFactory import StemmerFactory
+
 
 from tensorflow import keras
 from keras.models import load_model
@@ -18,6 +20,8 @@ import chatbotHelpers
 lemmatizer = WordNetLemmatizer()
 op = open('chatbot/intents.json')
 intents = json.load(op)
+factory = StemmerFactory()
+stemmer = factory.create_stemmer()
 
 words = pickle.load(open('chatbot/words.pkl', 'rb'))
 classes = pickle.load(open('chatbot/classes.pkl', 'rb'))
@@ -25,7 +29,7 @@ model = load_model('chatbot/chatbot_model.h5')
 
 def cleanUpSentence(sentence):
     sentenceWrods = nltk.word_tokenize(sentence)
-    sentenceWrods = [lemmatizer.lemmatize(word) for word in sentenceWrods]
+    sentenceWrods = [stemmer.stem(word) for word in sentenceWrods]
     return sentenceWrods
 
 
