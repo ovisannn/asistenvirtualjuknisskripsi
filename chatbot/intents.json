@@ -139,69 +139,27 @@
         "context_set":""
     },
     {
-        "tag":"",
-        "patterns":[],
-        "responses":[],
+        "tag":" Kriteria dan indikator kecukupan khusus bidang RPL-System Development",
+        "patterns":["apa saja  Kriteria dan indikator kecukupan khusus bidang RPL-System Development", "  Kriteria dan indikator kecukupan khusus bidang RPL-System Development", "apa sih  Kriteria dan indikator kecukupan khusus bidang RPL-System Development"],
+        "responses":["#indikator rpl sys dev pict"],
         "context_set":""
     },
     {
-        "tag":"",
-        "patterns":[],
-        "responses":[],
+        "tag":"Kriteria dan indikator kecukupan khusus bidang RPL-System Enhancement",
+        "patterns":["Kriteria dan indikator kecukupan khusus bidang RPL-System Enhancement", "apa saja Kriteria dan indikator kecukupan khusus bidang RPL-System Enhancement", "apasih Kriteria dan indikator kecukupan khusus bidang RPL-System Enhancement"],
+        "responses":["#indikator rpl sys ench pict"],
         "context_set":""
     },
     {
-        "tag":"",
-        "patterns":[],
-        "responses":[],
+        "tag":" Kriteria dan indikator kecukupan khusus bidang RPL-System Design",
+        "patterns":[" Kriteria dan indikator kecukupan khusus bidang RPL-System Design", "apa sih  Kriteria dan indikator kecukupan khusus bidang RPL-System Design", "apa saja  Kriteria dan indikator kecukupan khusus bidang RPL-System Design"],
+        "responses":["#indikator rpl sys design pict"],
         "context_set":""
     },
     {
-        "tag":"",
-        "patterns":[],
-        "responses":[],
-        "context_set":""
-    },
-    {
-        "tag":"",
-        "patterns":[],
-        "responses":[],
-        "context_set":""
-    },
-    {
-        "tag":"",
-        "patterns":[],
-        "responses":[],
-        "context_set":""
-    },
-    {
-        "tag":"",
-        "patterns":[],
-        "responses":[],
-        "context_set":""
-    },
-    {
-        "tag":"",
-        "patterns":[],
-        "responses":[],
-        "context_set":""
-    },
-    {
-        "tag":"",
-        "patterns":[],
-        "responses":[],
-        "context_set":""
-    },
-    {
-        "tag":"",
-        "patterns":[],
-        "responses":[],
-        "context_set":""
-    },
-    {
-        "tag":"",
-        "patterns":[],
-        "responses":[],
+        "tag":"Kriteria dan indikator kecukupan khusus bidang RPL-System Construction",
+        "patterns":["apa sajay Kriteria dan indikator kecukupan khusus bidang RPL-System Construction", "Kriteria dan indikator kecukupan khusus bidang RPL-System Construction", "apa sih Kriteria dan indikator kecukupan khusus bidang RPL-System Construction"],
+        "responses":["#indikator rpl sys construction"],
         "context_set":""
     }
 ]

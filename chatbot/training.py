@@ -11,6 +11,7 @@ import nltk
 # nltk.download('wordnet')
 # nltk.download('omw-1.4')
 from nltk.stem import WordNetLemmatizer
+from Sastrawi.Stemmer.StemmerFactory import StemmerFactory
 
 # from tensorflow.keras.models import Sequential
 import tensorflow
@@ -19,11 +20,15 @@ from keras.models import Sequential
 from keras.layers import Dense, Activation, Dropout
 from keras.optimizers import SGD
 
+# from symbol import factor
+
 
 lemmatizer = WordNetLemmatizer()
 op = open('chatbot/intents.json')
 intents = json.load(op)
 # print(intents)
+factory = StemmerFactory()
+stemmer = factory.create_stemmer()
 
 words = []
 classes = []
@@ -39,7 +44,8 @@ for intent in intents['intents']:
             classes.append(intent['tag'])
             
 # print(documents)
-words = [lemmatizer.lemmatize(word) for word in words if word not in ignoreLetters]
+# words = [lemmatizer.lemmatize(word) for word in words if word not in ignoreLetters]
+words = [stemmer.stem(word) for word in words if word not in ignoreLetters]
 wrodds = sorted(set(words))
 # print(words)
 
@@ -52,31 +58,31 @@ pickle.dump(classes, open('chatbot/classes.pkl', 'wb'))
 training = []
 outputEmpty = [0] * len(classes)
 
+
 for document in documents:
+    # print(document)
     bag = []
     wordPatterns = document[0]
     wordPatterns = [lemmatizer.lemmatize(word.lower()) for word in wordPatterns]
-    # print(wordPatterns)
     for word in words:
         bag.append(1) if word in wordPatterns else bag.append(0)
     
     outputRow = list(outputEmpty)
     outputRow[classes.index(document[1])] = 1
     training.append([bag, outputRow])
-    
+
+# print(training)
 random.shuffle(training)
 training = np.array(training, dtype='object')
 
 trainX = list(training[:, 0])
 trainY = list(training[:, 1])
 
-# print(len(trainX))
-# print(len(trainY[0]))
 
 model = Sequential()
-model.add(Dense(128, input_shape =(len(trainX[0]), ), activation='relu'))
+model.add(Dense(512, input_shape =(len(trainX[0]), ), activation='relu')) #128
 model.add(Dropout(0.5))
-model.add(Dense(64, activation='relu'))
+model.add(Dense(256, activation='relu')) #64
 model.add(Dropout(0.5))
 model.add(Dense(len(trainY[0]), activation='softmax'))
 
