@@ -50,7 +50,7 @@
     },
     {
         "tag":"System Enchancement",
-        "patterns":[""],
+        "patterns":["apa itu pengertian dari sistem enchancement", "pengertian dari sistem enchancement", "apa itu  sistem enchancement", "system enchancement"],
         "responses":["Sebuah kegiatan penelitian implementatif untuk membuat sebuah produk/artefak utama utuh (perangkat lunak/perangkat keras/kerangka kerja/jaringan komputer/dokumen instruksional) yang dikembangkan dari sistem yang sudah ada dengan menerapkan prinsip-prinsip rekayasa secara utuh, yang meliputi analisis, perancangan, konstruksi dan pengujian. Produk/artefak utama yang dihasilkan harus memenuhi aspek kompatibilitas dengan sistem yang sudah ada sebelumnya."],
         "context_set":""
     },
@@ -116,7 +116,7 @@
     },
     {
         "tag":"data science",
-        "patterns":["apa itu bidang dadta science", "apa sih data science itu", "data science"],
+        "patterns":["apa itu bidang data science", "apa sih data science itu", "data science"],
         "responses":["Bidang Data Science (DS) merupakan bidang yang menaungi topik penelitian yang meliputi ://1. Big Data//2. Pemodelan dan Analisis Data//3. Natural Language Processing (NLP)//4. Social Media Analysis//5. High Performance Computing (HPC)//"],
         "context_set":""
     },
@@ -151,16 +151,137 @@
         "context_set":""
     },
     {
-        "tag":" Kriteria dan indikator kecukupan khusus bidang RPL-System Design",
+        "tag":"Kriteria dan indikator kecukupan khusus bidang RPL-System Design",
         "patterns":[" Kriteria dan indikator kecukupan khusus bidang RPL-System Design", "apa sih  Kriteria dan indikator kecukupan khusus bidang RPL-System Design", "apa saja  Kriteria dan indikator kecukupan khusus bidang RPL-System Design"],
         "responses":["#indikator rpl sys design pict"],
         "context_set":""
     },
     {
         "tag":"Kriteria dan indikator kecukupan khusus bidang RPL-System Construction",
-        "patterns":["apa sajay Kriteria dan indikator kecukupan khusus bidang RPL-System Construction", "Kriteria dan indikator kecukupan khusus bidang RPL-System Construction", "apa sih Kriteria dan indikator kecukupan khusus bidang RPL-System Construction"],
+        "patterns":["apa saja Kriteria dan indikator kecukupan khusus bidang RPL-System Construction", "Kriteria dan indikator kecukupan khusus bidang RPL-System Construction", "apa sih Kriteria dan indikator kecukupan khusus bidang RPL-System Construction"],
         "responses":["#indikator rpl sys construction"],
         "context_set":""
+    },
+    {
+        "tag":"Kriteria dan indikator kecukupan khusus bidang RPL-Descriptive",
+        "patterns": ["apa saja Kriteria dan indikator kecukupan khusus bidang RPL-System descriptive", "Kriteria dan indikator kecukupan khusus bidang RPL-System descriptive", "apa sih Kriteria dan indikator kecukupan khusus bidang RPL-System descriptive"],
+        "responses": ["#indikator rpl sys Descriptive"],
+        "context_set": ""
+    },
+    {
+        "tag":"Kriteria dan indikator kecukupan khusus bidang RPL-Analytics",
+        "patterns": ["apa saja Kriteria dan indikator kecukupan khusus bidang RPL-System analytics", "Kriteria dan indikator kecukupan khusus bidang RPL-System analytics", "apa sih Kriteria dan indikator kecukupan khusus bidang RPL-System analytics"],
+        "responses": ["#indikator rpl sys analytics"],
+        "context_set": ""
+    },
+    {
+        "tag":"Kriteria dan indikator kecukupan khusus bidang MSI-System design",
+        "patterns": ["apa saja Kriteria dan indikator kecukupan khusus bidang MSI-System design", "Kriteria dan indikator kecukupan khusus bidang MSI-System design", "apa sih Kriteria dan indikator kecukupan khusus bidang MSI-System design"],
+        "responses": ["#indikator MSI-System design"],
+        "context_set": ""
+    },
+    {
+        "tag":"Kriteria dan indikator kecukupan khusus bidang MSI-Descriptive",
+        "patterns": ["apa saja Kriteria dan indikator kecukupan khusus bidang MSI-descriptive", "Kriteria dan indikator kecukupan khusus bidang MSI-descriptive", "apa sih Kriteria dan indikator kecukupan khusus bidang MSI-descriptive"],
+        "responses": ["#indikator MSI-Descriptive"],
+        "context_set": ""
+    },
+    {
+        "tag":"Kriteria dan indikator kecukupan khusus bidang MSI-Analytics",
+        "patterns": ["apa saja Kriteria dan indikator kecukupan khusus bidang MSI-System analytics", "Kriteria dan indikator kecukupan khusus bidang MSI-System analytics", "apa sih Kriteria dan indikator kecukupan khusus bidang MSI-System analytics"],
+        "responses": ["#indikator MSI-Analytics"],
+        "context_set": ""
+    },
+    {
+        "tag":"Kriteria dan indikator kecukupan khusus bidang JK-System Enhancement",
+        "patterns":["Kriteria dan indikator kecukupan khusus bidang JK-System Enhancement", "apa saja Kriteria dan indikator kecukupan khusus bidang JK-System Enhancement", "apasih Kriteria dan indikator kecukupan khusus bidang JK-System Enhancement"],
+        "responses":["#indikator JK-sys ench pict"],
+        "context_set":""
+    },
+    {
+        "tag":"Kriteria dan indikator kecukupan khusus bidang JK-System construction",
+        "patterns": ["apa saja Kriteria dan indikator kecukupan khusus bidang JK-System construction", "Kriteria dan indikator kecukupan khusus bidang JK-System construction", "apa sih Kriteria dan indikator kecukupan khusus bidang JK-System construction"],
+        "responses": ["#indikator JK-System construction"],
+        "context_set": ""
+    },
+    {
+        "tag":"Kriteria dan indikator kecukupan khusus bidang JK-Descriptive",
+        "patterns": ["apa saja Kriteria dan indikator kecukupan khusus bidang JK-descriptive", "Kriteria dan indikator kecukupan khusus bidang JK-descriptive", "apa sih Kriteria dan indikator kecukupan khusus bidang JK-descriptive"],
+        "responses": ["#indikator JK-Descriptive"],
+        "context_set": ""
+    },
+    {
+        "tag":"Kriteria dan indikator kecukupan khusus bidang JK-Analytics",
+        "patterns": ["apa saja Kriteria dan indikator kecukupan khusus bidang JK-System analytics", "Kriteria dan indikator kecukupan khusus bidang JK-System analytics", "apa sih Kriteria dan indikator kecukupan khusus bidang JK-System analytics"],
+        "responses": ["#indikator JK-Analytics"],
+        "context_set": ""
+    },
+    {
+        "tag":"Kriteria dan indikator kecukupan khusus bidang ES-Analytics",
+        "patterns": ["apa saja Kriteria dan indikator kecukupan khusus bidang ES-System analytics", "Kriteria dan indikator kecukupan khusus bidang ES-System analytics", "apa sih Kriteria dan indikator kecukupan khusus bidang ES-System analytics", "apa saja Kriteria dan indikator kecukupan khusus bidang Embedded System-System analytics", "Kriteria dan indikator kecukupan khusus bidang Embedded System-System analytics", "apa sih Kriteria dan indikator kecukupan khusus bidang Embedded System-System analytics"],
+        "responses": ["#indikator ES-Analytics"],
+        "context_set": ""
+    },
+    {
+        "tag":"Kriteria dan indikator kecukupan khusus bidang ES-Development",
+        "patterns": ["apa saja Kriteria dan indikator kecukupan khusus bidang ES-System Development", "Kriteria dan indikator kecukupan khusus bidang ES-System Development", "apa sih Kriteria dan indikator kecukupan khusus bidang ES-System Development", "apa saja Kriteria dan indikator kecukupan khusus bidang Embedded System-System Development", "Kriteria dan indikator kecukupan khusus bidang Embedded System-System Development", "apa sih Kriteria dan indikator kecukupan khusus bidang Embedded System-System Development"],
+        "responses": ["#indikator ES-Development"],
+        "context_set": ""
+    },
+    {
+        "tag":"Kriteria dan indikator kecukupan khusus bidang ES-Enhancement",
+        "patterns": ["apa saja Kriteria dan indikator kecukupan khusus bidang ES-System Enhancement", "Kriteria dan indikator kecukupan khusus bidang ES-System Enhancement", "apa sih Kriteria dan indikator kecukupan khusus bidang ES-System Enhancement", "apa saja Kriteria dan indikator kecukupan khusus bidang Embedded System-System Enhancement", "Kriteria dan indikator kecukupan khusus bidang Embedded System-System Enhancement", "apa sih Kriteria dan indikator kecukupan khusus bidang Embedded System-System Enhancement"],
+        "responses": ["#indikator ES-Enhancement"],
+        "context_set": ""
+    },
+    {
+        "tag":"Kriteria dan indikator kecukupan khusus bidang ES-Descriptive",
+        "patterns": ["apa saja Kriteria dan indikator kecukupan khusus bidang ES-System Descriptive", "Kriteria dan indikator kecukupan khusus bidang ES-System Descriptive", "apa sih Kriteria dan indikator kecukupan khusus bidang ES-System Descriptive", "apa saja Kriteria dan indikator kecukupan khusus bidang Embedded System-System Descriptive", "Kriteria dan indikator kecukupan khusus bidang Embedded System-System Descriptive", "apa sih Kriteria dan indikator kecukupan khusus bidang Embedded System-System Descriptive"],
+        "responses": ["#indikator ES-Descriptive"],
+        "context_set": ""
+    },
+    {
+        "tag":"Kriteria dan indikator kecukupan khusus bidang DS-Descriptive",
+        "patterns": ["apa saja Kriteria dan indikator kecukupan khusus bidang DS-System Descriptive", "Kriteria dan indikator kecukupan khusus bidang DS-System Descriptive", "apa sih Kriteria dan indikator kecukupan khusus bidang DS-System Descriptive", "apa saja Kriteria dan indikator kecukupan khusus bidang Data Science-System Descriptive", "Kriteria dan indikator kecukupan khusus bidang Data Science-System Descriptive", "apa sih Kriteria dan indikator kecukupan khusus bidang Data Science-System Descriptive"],
+        "responses": ["#indikator DS-Descriptive"],
+        "context_set": ""
+    },
+    {
+        "tag":"Kriteria dan indikator kecukupan khusus bidang DS-Analytics",
+        "patterns": ["apa saja Kriteria dan indikator kecukupan khusus bidang DS-Analytics", "Kriteria dan indikator kecukupan khusus bidang DS-Analytics", "apa sih Kriteria dan indikator kecukupan khusus bidang DS-Analytics", "apa saja Kriteria dan indikator kecukupan khusus bidang Data Science-Analytics", "Kriteria dan indikator kecukupan khusus bidang Data Science-Analytics", "apa sih Kriteria dan indikator kecukupan khusus bidang Data Science-Analytics"],
+        "responses": ["#indikator DS-Analytics"],
+        "context_set": ""
+    },
+    {
+        "tag": "Struktur Penulisan Proposal",
+        "patterns":["bagaian format penulisan proposal skripsi", "bagaimana cara penulisan proposal skripsi", "bagaimana cara menulisa proposal", " apa saja urutan penulisan proposal"],
+        "responses":["1. Bagian awal, yang bersifat pendukung, terdiri atas:\\n \t a. Halaman Judul\\n \t \t i. Logo Universitas Jember,\\n \t \t ii. Judul,\\n \t \t iii. Jenis karya ilmiah (Proposal Skripsi),\\n \t \t iv. nama dan identitas penulis,\\n \t \t v. institusi,\\n \t \t vi. dan tahun.\\n \t b. Halaman Pernyataan Orisinalitas\\n 2. Bagian utama proposal, terdiri atas:\\n \t a. Latar Belakang\\n \t b. Rumusan Masalah\\n \t c. Tujuan Penelitian\\n \t d. Manfaat Penelitian\\n \t e. Batasan Masalah\\n \t f. Tinjauan Pustaka\\n \t \t i. Penelitian Terdahulu\\n \t \t ii. Landasan Teori\\n \t g. Metodologi Penelitian\\n \t h. Luaran Penelitian\\n \t i. Jadwal Penelitian\\n 3. Bagian akhir proposal, terdiri atas:\\n \t a. Daftar Pustaka\\n \t b. Lampiran\\n"],
+        "context_set":"struktur penulisan"
+    },
+    {
+        "tag": "Struktur penulisan skripsi",
+        "patterns":["bagaian format penulisan skripsi", "bagaimana cara penulisan skripsi", "bagaimana cara menulisa skripsi", " apa saja urutan penulisan skripsi"],
+        "responses":["1. Bagian awal, yang bersifat pendukung, terdiri atas:\\n \t a. Halaman Sampul\\n \t b. Halaman Judul\\n \t c. Halaman Pengesahan (ditandatangani Penguji, Pembimbing dan Dekan)\\n \t d. Halaman Pernyataan Orisinalitas\\n \t e. Ringkasan\\n \t f. Daftar Isi\\n \t g. Daftar Tabel\\n \t h. Daftar Gambar\\n \t i. Daftar Lampiran\\n 2. Bagian utama, yang menggambarkan substansi skripsi, terdiri atas:Bab 1:\\n \t Bab 1: Pendahuluan\\n \t Bab 2: Tinjauan Pustaka\\n \t \t 2.1 Penelitian Terdahulu\\n \t \t 2.2 Landasan Teori\\n \t Bab 3: Metodologi Penelitian\\n \t Bab 4 sampai n: Bab-bab tentang Hasil dan Pembahasan\\n \t Bab (n + 1): Kesimpulan dan Saran\\n 3. Bagian akhir, yang melengkapi skripsi, terdiri atas:\\n \t a. Daftar Pustaka\\n \t b. Lampiran\\n "],
+        "context_set":"struktur penulisan"
+    },
+    {
+        "tag": "plagiarisme",
+        "patterns":["bagaimana macam plagiarisme", "tipe tipe plagiarisme", "dianggap plagiarisme ketika"],
+        "responses":["Tipe-tipe plagiarisme diantaranya adalah:\\n 1. Menyerahkan atau mempublikasikan hasil karya orang lain sebagai milik sendiri\\n 2. Menyalin kata-kata atau ide dari orang lain tanpa memberikan kredit\\n 3. Tidak memberikan tanda kutip pada sebuah kutipan\\n 4. Memberikan informasi yang salah tentang sumber dari sebuah kutipan\\n 5. Mengubah kata tetapi menyalin struktur kalimat dari sebuah sumber tanpa memberikan kredit\\n 6. Menyalin terlalu banyak kata atau ide dari sumber lain sehingga menjadi bagian yang mayoritas atau dominan dari sebuah pekerjaan yang dilaporkan, baik dengan memberikan kredit ataupun tidak."],
+        "context_set":""
+    },
+    {
+        "tag": "menghindari plagiarisme",
+        "patterns":["bagaimana cara menghindari plagiarisme", "menghindari plagiarisme", "bagaimana agar tidak plagiarisme"],
+        "responses":["Untuk menghindari plagiarisme, hal-hal yang bisa dilakukan adalah:\\n 1. Memahami ide dari teks yang akan dirujuk sehingga memudahkan parafrase\\n 2. Melakukan parafrase dan sitasi dengan benar\\n 3. Melakukan pengutipan langsung dan sitasi dengan benar\\n 4. Menganalisis dan mengevaluasi keakuratan dan kredibilitas sumber\\n 5. Melakukan konsultasi dengan Pembimbing penelitian atau peneliti yang lebih berpengalaman"],
+        "context_set":""
+    },
+    {
+        "tag":"mekanisme pemeriksaan orisinalitas",
+        "responses":["bagaimana mekanisme pemeriksaan orisinalitas", "bagaimana cara cek plagiarisme", "bagaimana cara pengecekan plagiarisme orisinalitas"],
+        "response":["Mekanisme pemeriksaan orisinalitas skripsi yaitu:\\n  1. Mahasiswa melakukan tes plagiasi terhadap dokumen skripsi menggunakan Turnitin melalui akun Dosen Pembimbing I dan atau Dosen Pembimbing 2.\\n  2. Pengecekan similarity dilakukan oleh Dosen Pembimbing 1 dan atau Dosen Pembimbing 2 dengan ketentuan:\\n a. Batas similarity maksimal dokumen skripsi adalah 30% (bagian utama skripsi) dan batas similarity maksimal per source adalah 10%.\\n b. Apabila tingkat kemiripan melebihi batas toleransi similarity (poin a) dan dianggap tidak melanggar plagiarisme, maka dibutuhkan expert judgement dari Dosen Pembimbing.\\n 3. Hasil tes plagiasi akan dilampirkan saat mahasiswa mendaftar Seminar Proposal dan Ujian Skripsi\\n "],
+        "context_set":""
     }
+
 ]
 }
