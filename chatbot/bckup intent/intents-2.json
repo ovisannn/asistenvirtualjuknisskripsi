@@ -14,13 +14,13 @@
     },
     {
         "tag":"pengertian skripsi",
-        "patterns":["pengertian skripsi", "definisi skripsi adalah", "skripsi"],
+        "patterns":["pengertian skripsi", "definisi skripsi adalah"],
         "responses":["Skripsi adalah istilah yang digunakan di Indonesia untuk mengilustrasikan suatu karya tulis ilmiah berupa paparan tulisan hasil penelitian sarjana S1 yang membahas suatu permasalahan/fenomena dalam bidang ilmu tertentu dengan menggunakan kaidah-kaidah yang berlaku. Dengan demikian, skripsi merupakan hasil penelitian yang disusun dengan menggunakan metode ilmiah baku serta memenuhi bidang keilmuan dengan apa yang dipelajari mahasiswa di Program Studinya"],
         "context_set":""
     },
     {
         "tag":"asesmen",
-        "patterns":["aspek asesmen skripsi", "asesmen skripsi"],
+        "patterns":["aspek asesmen skripsi"],
         "responses":["Ada dua hal asesmen yang akan dilakukan, yaitu aspek kelayakan proposal skripsi dan aspek kecukupan skripsi yang terbagi kedalam aspek kecukupan umum skripsi dan aspek kecukupan khusus skripsi untuk mengukur tingkat kesesuaian dan kedalaman skripsi sebagaimana yang diinginkan"],
         "context_set":""
     },
@@ -93,37 +93,37 @@
     {
         "tag":"Rekayasa Perangkat Lunak",
         "patterns":["rpl", "rekayasa perangkat lunak"],
-        "responses":["Bidang Rekayasa Perangkat Lunak (RPL) mencakup bidang yang mempelajari pengembangan, operasi serta pemeliharaan perangkat lunak, meliputi juga metode, bahasa dan alat bantu (teknologi) yang dapat digunakan dalam rekayasa perangkat lunak tersebut. Bidang ilmu yang dipelajari dan menjadi bidang skripsi RPL mengikuti bidang kajian yang berada dalam lingkup Software Engineering Body of Knowledge (SWEBOK), meliputi:\\1. Software requirement \\2. Software design\\3. Software construction\\4. Software testing\\5. Software maintenance\\6. Software quality\\7. Software configuration management\\8. Software engineering management\\9. Software engineering process\\10.Software engineering models and method\\11. Software engineering professional practice"],
+        "responses":["Bidang Rekayasa Perangkat Lunak (RPL) mencakup bidang yang mempelajari pengembangan, operasi serta pemeliharaan perangkat lunak, meliputi juga metode, bahasa dan alat bantu (teknologi) yang dapat digunakan dalam rekayasa perangkat lunak tersebut. Bidang ilmu yang dipelajari dan menjadi bidang skripsi RPL mengikuti bidang kajian yang berada dalam lingkup Software Engineering Body of Knowledge (SWEBOK), meliputi://1. Software requirement //2. Software design//3. Software construction//4. Software testing//5. Software maintenance//6. Software quality//7. Software configuration management//8. Software engineering management//9. Software engineering process//10.Software engineering models and method//11. Software engineering professional practice//"],
         "context_set":""
     },
     {
         "tag":"Manajemen Sistem Informasi",
         "patterns":["manajemen sistem informasi", "pengertian manajemen sistem informasi"],
-        "responses":["Bidang Manajemen Sistem Informasi (MSI) menaungi berbagai riset keahlian Sistem Informasi mulai dari aspek strategis, manajemen proyek, peningkatan performa proses bisnis dengan dukungan SI/TI sampai pada evaluasi kinerja TI dalam mendukung organisasi. Topik-topik penelitian yang termasuk ke dalam MSI antara lain:\\1. TI sebagai tools Strategi\\2. Penerapan E-Government\\3. Manajemen & Perubahan Proyek TI\\4. Kota Cerdas\\5. Kematangan Tata Kelola TI (IT Maturity)\\6. Pengelolaan Layanan TI\\7. Penjaminan Mutu Proses TI\\8. Pengelolaan Risiko TI\\9. IT Productivity Paradox\\10.Evaluasi Kinerja"],
+        "responses":["Bidang Manajemen Sistem Informasi (MSI) menaungi berbagai riset keahlian Sistem Informasi mulai dari aspek strategis, manajemen proyek, peningkatan performa proses bisnis dengan dukungan SI/TI sampai pada evaluasi kinerja TI dalam mendukung organisasi. Topik-topik penelitian yang termasuk ke dalam MSI antara lain://1. TI sebagai tools Strategi//2. Penerapan E-Government//3. Manajemen & Perubahan Proyek TI//4. Kota Cerdas//5. Kematangan Tata Kelola TI (IT Maturity)//6. Pengelolaan Layanan TI//7. Penjaminan Mutu Proses TI//8. Pengelolaan Risiko TI//9. IT Productivity Paradox//10.Evaluasi Kinerja"],
         "context_set":""
     },
     {
         "tag":"jaringan dan keamanan",
         "patterns":["jaringan dan keamanan", "pengertian jaringan dan keamanan"],
-        "responses":["Bidang jaringan dan keamanan (JK) menaungi berbagai riset pada bidang jaringan (network) dan keamanan (security) meliputi:\\1. Arsitektur Jaringan\\2. Optimasi Jaringan\\3. Keamanan Jaringan\\4. Keamanan Informasi\\5. Teori Graf\\6. Digital Forensik"],
+        "responses":["Bidang jaringan dan keamanan (JK) menaungi berbagai riset pada bidang jaringan (network) dan keamanan (security) meliputi://1. Arsitektur Jaringan//2. Optimasi Jaringan//3. Keamanan Jaringan//4. Keamanan Informasi//5. Teori Graf//6. Digital Forensik"],
         "context_set":""
     },
     {
         "tag":"embedded sistem",
         "patterns":["embedded sistem", "pengertian embedded sistem"],
-        "responses":["Bidang embedded system (ES) menaungi berbagai riset di bidang sistem tertanam meliputi:\\1. Internet of Things (IoT)\\2. Robotika\\3. Sistem Informasi Geografis (SIG)\\4. Hardware\\5. Embedded System untuk Monitoring\\6. Sensor / Mikrokontroler\\7. dll"],
+        "responses":["Bidang embedded system (ES) menaungi berbagai riset di bidang sistem tertanam meliputi://1. Internet of Things (IoT)//2. Robotika//3. Sistem Informasi Geografis (SIG)//4. Hardware//5. Embedded System untuk Monitoring//6. Sensor / Mikrokontroler//7. dll"],
         "context_set":""
     },
     {
         "tag":"komputasi cerdas",
         "patterns":["komputasi cerdas", "pengertian komputasi cerdas"],
-        "responses":["Bidang Komputasi Cerdas (KC) menaungi berbagai riset yang berada pada komputasi cerdas, meliputi :\\1. Pengolahan Citra Digital\\2. Analisis Data Multivariat\\3. Data Mining\\4. Visi Komputer\\5. Sistem Temu Kembali Informasi\\6. Kecerdasan Buatan//"],
+        "responses":["Bidang Komputasi Cerdas (KC) menaungi berbagai riset yang berada pada komputasi cerdas, meliputi ://1. Pengolahan Citra Digital//2. Analisis Data Multivariat//3. Data Mining//4. Visi Komputer//5. Sistem Temu Kembali Informasi//6. Kecerdasan Buatan//"],
         "context_set":""
     },
     {
         "tag":"data science",
         "patterns":["data science", "pengertian data science"],
-        "responses":["Bidang Data Science (DS) merupakan bidang yang menaungi topik penelitian yang meliputi :\\1. Big Data\\2. Pemodelan dan Analisis Data\\3. Natural Language Processing (NLP)\\4. Social Media Analysis\\5. High Performance Computing (HPC)//"],
+        "responses":["Bidang Data Science (DS) merupakan bidang yang menaungi topik penelitian yang meliputi ://1. Big Data//2. Pemodelan dan Analisis Data//3. Natural Language Processing (NLP)//4. Social Media Analysis//5. High Performance Computing (HPC)//"],
         "context_set":""
     },
     {
@@ -143,6 +143,120 @@
         "patterns":["list kelayakan proposal skripsi"],
         "responses":["1. Kelayakan latar belakang\\n 2. Kelayakan rumusan masalah dan tujuan\\n 3. Kelayakan landasan kepustakaan\\n 4. kelayakan metodologi penelitian\\n 5. Kelayakan daftar referensi"],
         "context_set":""
+    },
+    {
+        "tag":" Kriteria dan indikator kecukupan khusus bidang RPL-System Development",
+        "patterns":["kriteria dan indikator kecukupan khusus bidang RPL System Development", "  kriteria dan indikator kecukupan khusus bidang rekayasa perangkat lunak System Development"],
+        "responses":["#indikator rpl sys dev pict"],
+        "context_set":""
+    },
+    {
+        "tag":"Kriteria dan indikator kecukupan khusus bidang RPL-System Enhancement",
+        "patterns":["kriteria dan indikator kecukupan khusus bidang RPL system enhancement", "  kriteria dan indikator kecukupan khusus bidang rekayasa perangkat lunak system enhancement"],
+        "responses":["#indikator rpl sys ench pict"],
+        "context_set":""
+    },
+    {
+        "tag":"Kriteria dan indikator kecukupan khusus bidang RPL-System Design",
+        "patterns":["Kriteria dan indikator kecukupan khusus bidang RPL-System Design", "apa sih  Kriteria dan indikator kecukupan khusus bidang RPL-System Design", "apa saja  Kriteria dan indikator kecukupan khusus bidang RPL-System Design"],
+        "responses":["#indikator rpl sys design pict"],
+        "context_set":""
+    },
+    {
+        "tag":"Kriteria dan indikator kecukupan khusus bidang RPL-System Construction",
+        "patterns":["kriteria dan indikator kecukupan khusus bidang RPL system construction", "  kriteria dan indikator kecukupan khusus bidang rekayasa perangkat lunak system construction"],
+        "responses":["#indikator rpl sys construction"],
+        "context_set":""
+    },
+    {
+        "tag":"Kriteria dan indikator kecukupan khusus bidang RPL-Descriptive",
+        "patterns": ["kriteria dan indikator kecukupan khusus bidang RPL system descriptive", "  kriteria dan indikator kecukupan khusus bidang rekayasa perangkat lunak system descriptive"],
+        "responses": ["#indikator rpl sys Descriptive"],
+        "context_set": ""
+    },
+    {
+        "tag":"Kriteria dan indikator kecukupan khusus bidang RPL-Analytics",
+        "patterns": ["kriteria dan indikator kecukupan khusus bidang RPL system analytics", "  kriteria dan indikator kecukupan khusus bidang rekayasa perangkat lunak system analytics"],
+        "responses": ["#indikator rpl sys analytics"],
+        "context_set": ""
+    },
+    {
+        "tag":"Kriteria dan indikator kecukupan khusus bidang MSI-System design",
+        "patterns": ["kriteria dan indikator kecukupan khusus bidang RPL system design", "  kriteria dan indikator kecukupan khusus bidang rekayasa perangkat lunak system design"],
+        "responses": ["#indikator MSI-System design"],
+        "context_set": ""
+    },
+    {
+        "tag":"Kriteria dan indikator kecukupan khusus bidang MSI-Descriptive",
+        "patterns": ["kriteria dan indikator kecukupan khusus bidang MSI descriptive", "  kriteria dan indikator kecukupan khusus bidang manajemen sistem informasi deskriptive"],
+        "responses": ["#indikator MSI-Descriptive"],
+        "context_set": ""
+    },
+    {
+        "tag":"Kriteria dan indikator kecukupan khusus bidang MSI-Analytics",
+        "patterns": ["kriteria dan indikator kecukupan khusus bidang MSI analytics", "  kriteria dan indikator kecukupan khusus bidang manajemen sistem informasi analytics"],
+        "responses": ["#indikator MSI-Analytics"],
+        "context_set": ""
+    },
+    {
+        "tag":"Kriteria dan indikator kecukupan khusus bidang JK-System Enhancement",
+        "patterns":["kriteria dan indikator kecukupan khusus bidang JK system enhancement", "  kriteria dan indikator kecukupan khusus bidang jaringan dan keamanan enhancement"],
+        "responses":["#indikator JK-sys ench pict"],
+        "context_set":""
+    },
+    {
+        "tag":"Kriteria dan indikator kecukupan khusus bidang JK-System construction",
+        "patterns": ["kriteria dan indikator kecukupan khusus bidang JK system construction", "  kriteria dan indikator kecukupan khusus bidang jaringan dan keamanan construction"],
+        "responses": ["#indikator JK-System construction"],
+        "context_set": ""
+    },
+    {
+        "tag":"Kriteria dan indikator kecukupan khusus bidang JK-Descriptive",
+        "patterns": ["kriteria dan indikator kecukupan khusus bidang JK descriptive", "  kriteria dan indikator kecukupan khusus bidang jaringan dan keamanan descriptive"],
+        "responses": ["#indikator JK-Descriptive"],
+        "context_set": ""
+    },
+    {
+        "tag":"Kriteria dan indikator kecukupan khusus bidang JK-Analytics",
+        "patterns": ["kriteria dan indikator kecukupan khusus bidang JK analytics", "  kriteria dan indikator kecukupan khusus bidang jaringan dan keamanan analytics"],
+        "responses": ["#indikator JK-Analytics"],
+        "context_set": ""
+    },
+    {
+        "tag":"Kriteria dan indikator kecukupan khusus bidang ES-Analytics",
+        "patterns": ["kriteria dan indikator kecukupan khusus bidang ES analytics", "  kriteria dan indikator kecukupan khusus bidang embedded system analytics"],
+        "responses": ["#indikator ES-Analytics"],
+        "context_set": ""
+    },
+    {
+        "tag":"Kriteria dan indikator kecukupan khusus bidang ES-Development",
+        "patterns": ["kriteria dan indikator kecukupan khusus bidang ES development", "  kriteria dan indikator kecukupan khusus bidang embedded system development"],
+        "responses": ["#indikator ES-Development"],
+        "context_set": ""
+    },
+    {
+        "tag":"Kriteria dan indikator kecukupan khusus bidang ES-Enhancement",
+        "patterns": ["kriteria dan indikator kecukupan khusus bidang ES enhancement", "  kriteria dan indikator kecukupan khusus bidang embedded system enhancement"],
+        "responses": ["#indikator ES-Enhancement"],
+        "context_set": ""
+    },
+    {
+        "tag":"Kriteria dan indikator kecukupan khusus bidang ES-Descriptive",
+        "patterns": ["kriteria dan indikator kecukupan khusus bidang ES descriptive", "  kriteria dan indikator kecukupan khusus bidang embedded system descriptive"],
+        "responses": ["#indikator ES-Descriptive"],
+        "context_set": ""
+    },
+    {
+        "tag":"Kriteria dan indikator kecukupan khusus bidang DS-Descriptive",
+        "patterns": ["kriteria dan indikator kecukupan khusus bidang DS descriptive", "  kriteria dan indikator kecukupan khusus bidang data science descriptive"],
+        "responses": ["#indikator DS-Descriptive"],
+        "context_set": ""
+    },
+    {
+        "tag":"Kriteria dan indikator kecukupan khusus bidang DS-Analytics",
+        "patterns": ["kriteria dan indikator kecukupan khusus bidang DS analytics", "  kriteria dan indikator kecukupan khusus bidang data science analytics"],
+        "responses": ["#indikator DS-Analytics"],
+        "context_set": ""
     },
     {
         "tag": "Struktur Penulisan Proposal",
@@ -192,5 +306,6 @@
         "responses":["Prosedur Normal:\\n 1. Mahasiswa mendaftar ke Operator Akademik - Bagian Skripsi dengan melampirkan:\\n  \t a. Skripsi yang telah disetujui disertai bukti acc kedua dosen pembimbing.\\n  \t b. KRS semester berjalan\\n  \t c. Transkrip mahasiswa\\n  \t d. Nomor whatsapp yang aktif\\n  \t e. Lembar pernyataan orisinalitas\\n  2. Operator Akademik - Bagian Skripsi merekap daftar pengajuan ujian skripsi untuk diserahkan ke Komisi Bimbingan.\\n  3. Komisi Bimbingan menyetujui pengajuan ujian skripsi dan dikembalikan ke Operator Akademik - Bagian Skripsi.\\n  4. Operator Akademik - Bagian Skripsi menyusun jadwal ujian skripsi\\n  5. Operator Akademik - Bagian Skripsi menyiapkan dokumen-dokumen\\n  diantaranya: (1) surat tugas ujian skripsi; (2) lembar penilaian ujian skripsi; (3) hasil penilaian kelayakan proposal.\\n  6. Operator Akademik - Bagian Skripsi menyerahkan dokumen-dokumen seperti pada butir (5) kepada mahasiswa.\\n  7. Mahasiswa menyampaikan dokumen-dokumen seperti pada butir (5) ditambah dokumen skripsi ke masing-masing dosen penguji dan pembimbing maksimal H-2 sebelum pelaksanaan ujian skripsi.\\n  8. Apabila ujian dilaksanakan secara daring, maka mahasiswa meminta link zoom untuk ujian kepada salah satu dosen pembimbing dan diserahkan kepada semua dosen pembimbing dan dosen penguji maksimal H-1 ujian skripsi. Apabila ujian dilaksanakan secara luring, maka bagian umum dan perlengkapan mempersiapkan ruang sidang untuk pelaksanaan ujian skripsi sesuai dengan surat tugas ujian skripsi.\\n  9. Ujian skripsi dilaksanakan.\\n  10.Pada akhir ujian, seluruh lembar penilaian dikumpulkan ke sekretaris penguji (Dosen Penguji 2) untuk dikompilasi. Saat proses kompilasi, Mahasiswa meninggalkan ruang ujian sejenak.\\n  11. Setelah dikompilasi, mahasiswa kembali memasuki ruang ujian dan hasil diumumkan oleh ketua penguji (Dosen Penguji 1).\\n  12.Mahasiswa dinyatakan lulus ujian skripsi apabila nilai akhir ujian skripsi diantara 60 (nilai huruf C) hingga 100 (nilai huruf A), jika nilai ujian skripsi kurang dari 60 maka mahasiswa wajib melakukan ujian ulang paling cepat 2 minggu setelah ujian skripsi pertama.\\n  13.Jika mahasiswa merasa nilai yang didapatkan kurang memuaskan maka mahasiswa memiliki kesempatan untuk melakukan ujian ulang sebanyak 2 kali dengan syarat mendapatkan persetujuan dari kedua dosen pembimbing. Apabila perbaikan nilai dilakukan ujian ulang sebanyak 2 kali maka nilai yang digunakan adalah nilai terbaik. Setelah ujian dan dinyatakan lulus, mahasiswa menyelesaikan revisi dari dosen penguji maksimal 2 bulan setelah pelaksanaan ujian.\\n \\n Prosedur Alternatif:\\n  1. Apabila salah satu atau kedua dosen penguji / dosen pembimbing berhalangan hadir di waktu ujian yang sudah ditentukan: Pihak yang berhalangan melapor kepada Operator Akademik - Bagian Skripsi terkait penundaan, kemudian dijadwalkan ulang pelaksanaan ujian skripsi.\\n  2. Apabila hingga 2 bulan setelah ujian mahasiswa belum menyelesaikan revisi:\\n  Mahasiswa harus melakukan ujian skripsi ulang.\\n  3. Apabila ujian ulang dikarenakan tidak lulus (nilai <60) dan pada ujian ulang kedua mahasiswa masih mendapatkan nilai <60: Mahasiswa dinyatakan lulus dengan nilai 60 atau C.\\n "],
         "context_set":""
     }
+
 ]
 }

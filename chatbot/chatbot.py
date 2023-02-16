@@ -16,6 +16,7 @@ from tensorflow import keras
 from keras.models import load_model
 
 import chatbotHelpers
+import re
 
 lemmatizer = WordNetLemmatizer()
 op = open('chatbot/intents.json')
@@ -27,9 +28,38 @@ words = pickle.load(open('chatbot/words.pkl', 'rb'))
 classes = pickle.load(open('chatbot/classes.pkl', 'rb'))
 model = load_model('chatbot/chatbot_model.h5')
 
+def cleaningUpExpression(sentence):
+    cleanSentence = sentence
+    removeWordsList = [
+        "apa",
+        "mengapa",
+        "sih",
+        "apasih",
+        "tolong",
+        "jelaskan",
+        "bagaimana",
+        "diampu",
+        "memegang",
+        "sebutkan",
+        "itu"
+    ]
+    for i in removeWordsList:
+        if i in sentence:
+            # print('true')
+            cleanSentence= cleanSentence.replace(i, '')
+    #menghillangkan kata apa apasih sih mengapa dsb
+    # print('func cleaning() :'+cleanSentence)
+    return cleanSentence
+
 def cleanUpSentence(sentence):
-    sentenceWrods = nltk.word_tokenize(sentence)
-    sentenceWrods = [stemmer.stem(word) for word in sentenceWrods]
+    sentenceWrods1 = cleaningUpExpression(sentence)
+    sentenceWrods = nltk.word_tokenize(sentenceWrods1)
+    # print(sentence)
+    print(sentenceWrods)
+    sentenceWrods = [lemmatizer.lemmatize(word) for word in sentenceWrods] #en
+    # print(type(sentenceWrods))
+    # sentenceWrods = [stemmer.stem(word) for word in sentenceWrods] #indo
+    # print(sentenceWrods)
     return sentenceWrods
 
 
@@ -45,31 +75,30 @@ def bagOfWords(sentence):
 
 def predictClasses(sentence):
     bow = bagOfWords(sentence)
+    # print(bow)
     res = model.predict(np.array([bow]))[0]
+    # ERROR_THRESHOLD = 0.92
     ERROR_THRESHOLD = 0.25
     results = [[i, r] for i, r in enumerate(res) if r > ERROR_THRESHOLD]
-    
+    # print(results[0][1])
+    # if results[0][1] < ERROR_THRESHOLD:
+    #     return {'intent': '0', 'probability': ''}
     results.sort(key=lambda x: x[1], reverse = True)
     returnList = []
     for r in results:
         returnList.append({'intent':classes[r[0]], 'probability':str(r[1])})
-        
+    # print(returnList)
     return returnList
 
 def getResponse(intentList, intentJson):
+    print(intentList[0]['probability'])
+    ERROR_THRESHOLD = 0.98
+    if float(intentList[0]['probability'])< ERROR_THRESHOLD:
+        return "Mohon maaf masukan tidak dikenali"
     tag = intentList[0]['intent']
     listOfIntents = intentJson['intents']
-    # print(listOfIntents)
+    # print(tag)
     for i in listOfIntents:
-        if tag == 'jam':
-            result = chatbotHelpers.GetHours()
-            break
-        if tag == 'umur':
-            result = chatbotHelpers.GetNoesaAge()
-            break
-        if tag == "hari":
-            result = chatbotHelpers.GetDay()
-            break
         if i['tag'] == tag:
             result = random.choice(i['responses'])
             break
