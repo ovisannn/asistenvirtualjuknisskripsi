@@ -1,0 +1,64 @@
+{
+    "dosen":[
+        {
+            "tag": "Tio Dharmawan",
+            "patterns":["tio", "dharmawan"],
+            "responses":["1. Data mining, \\2. text mining, \\3. Image, Video & Sound processing, \\4. Computer vison"],
+            "context_set":"pengampu bidang"
+        },
+        {
+            "tag": "Windi Eka Yulia Retnani",
+            "patterns":["windi", "eka", "yulia", "retnani"],
+            "responses":["1. software requirement, \\2. software design \\3. software quality \\4. business process management" ],
+            "context_set":"pengampu bidang"
+        },
+        {
+            "tag": "Antonius Cahya Prihandoko",
+            "patterns":["anton", "antonius", "cahya", "prihandoko"],
+            "responses":["1. coding theory, \\2. teori bahasa dan automata \\3. information security" ],
+            "context_set":"pengampu bidang"
+        },
+        {
+            "tag": "Yudha Alif Auliya",
+            "patterns":["yudha", "alif", "auliya"],
+            "responses":["1. machine learning, \\2. deep learning \\3. network management \\4. IT infrastructure"],
+            "context_set":"pengampu bidang"
+        },
+        {
+            "tag":"Priza Pandunata",
+            "patterns":["priza", "pandunata"],
+            "responses":["1. data mining, \\2. text mining \\3. machine learning \\4. game"],
+            "context_set" : "pengampu bidang"
+        },
+        {
+            "tag":"Fahrobby Adnan",
+            "patterns":["robi", "roby", "fahroby", "adnan"],
+            "responses":["1. information system adoption, \\2. infomation system evaluation \\3. user interface \\4. user experience"],
+            "context_set":"pengampu bidang"
+        },
+        {
+            "tag":"Achmad Maududie",
+            "patterns":["achmad", "maududi", "maududie"],
+            "responses":["1. data mining, \\2. text mining \\3. data visualization \\4. network embedded system"],
+            "context_set":"pengampu bidang"
+        },
+        {
+            "tag": "Beny Prasetyo",
+            "patterns":["beni", "beny", "prasetyo"],
+            "responses":["1. software requirement, \\2. software quality \\3. information system adoption, \\4. infomation system evaluation\\5. IT risk management"],
+            "context_set":"pengampu bidang"
+        },
+        {
+            "tag":"Nelly Oktavia Adiwijaya",
+            "patterns":["neli", "nelly", "oktavia", "adiwijaya"],
+            "responses":["1. data mining, \\2. business intelligence \\3. machine learning \\4. game\\5. deep learning"],
+            "context_set":"pengampu bidang"
+        },
+        {
+            "tag":"Diksy Media Firmansyah",
+            "patterns":["diksi", "diksy", "media", "firmansyah"],
+            "responses":["1. network embedded system, \\2. information security \\3. IT infrastructure\\4. cloud computing\\5. network security"],
+            "context_set":"pengampu bidang"
+        }
+    ]
+}
