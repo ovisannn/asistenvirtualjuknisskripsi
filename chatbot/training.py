@@ -44,8 +44,8 @@ for intent in intents['intents']:
             classes.append(intent['tag'])
             
 # print(documents)
-# words = [lemmatizer.lemmatize(word) for word in words if word not in ignoreLetters]
-words = [stemmer.stem(word) for word in words if word not in ignoreLetters]
+words = [lemmatizer.lemmatize(word) for word in words if word not in ignoreLetters] #en
+# words = [stemmer.stem(word) for word in words if word not in ignoreLetters] #indo
 wrodds = sorted(set(words))
 # print(words)
 
@@ -80,18 +80,19 @@ trainY = list(training[:, 1])
 
 
 model = Sequential()
-model.add(Dense(512, input_shape =(len(trainX[0]), ), activation='relu')) #128
-model.add(Dropout(0.5))
-model.add(Dense(256, activation='relu')) #64
-model.add(Dropout(0.5))
+model.add(Dense(128, input_shape =(len(trainX[0]), ), activation='relu')) #128 256 512 1024 2048
+# model.add(Dropout(0.5))
+model.add(Dense(64, activation='relu')) #64 128 256 512 1024 2048
+# model.add(Dropout(0.5))
 model.add(Dense(len(trainY[0]), activation='softmax'))
 
 
 sgd = SGD(learning_rate=0.01, decay=1e-6, momentum=0.9, nesterov=True)
+# sgd = SGD(learning_rate=0.01, decay=1e-6, momentum=0.6, nesterov=True)
 model.compile(loss='categorical_crossentropy', optimizer=sgd, metrics=['accuracy'])
 
 
-hist = model.fit(np.array(trainX), np.array(trainY), epochs= 200, batch_size= 5, verbose= 1)
+hist = model.fit(np.array(trainX), np.array(trainY), epochs= 256, batch_size= 5, verbose= 1)
 model.save('chatbot/chatbot_model.h5', hist)
 
 model.summary()
