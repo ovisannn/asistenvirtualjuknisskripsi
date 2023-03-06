@@ -14,15 +14,15 @@
     },
     {
         "tag":"pengertian skripsi",
-        "patterns":["pengertian skripsi", "definisi skripsi adalah", "skripsi"],
+        "patterns":["pengertian skripsi", "definisi skripsi", "skripsi"],
         "responses":["Skripsi adalah istilah yang digunakan di Indonesia untuk mengilustrasikan suatu karya tulis ilmiah berupa paparan tulisan hasil penelitian sarjana S1 yang membahas suatu permasalahan/fenomena dalam bidang ilmu tertentu dengan menggunakan kaidah-kaidah yang berlaku. Dengan demikian, skripsi merupakan hasil penelitian yang disusun dengan menggunakan metode ilmiah baku serta memenuhi bidang keilmuan dengan apa yang dipelajari mahasiswa di Program Studinya"],
-        "context_set":""
+        "context_set":"skripsi"
     },
     {
         "tag":"asesmen",
         "patterns":["aspek asesmen skripsi", "asesmen skripsi"],
         "responses":["Ada dua hal asesmen yang akan dilakukan, yaitu aspek kelayakan proposal skripsi dan aspek kecukupan skripsi yang terbagi kedalam aspek kecukupan umum skripsi dan aspek kecukupan khusus skripsi untuk mengukur tingkat kesesuaian dan kedalaman skripsi sebagaimana yang diinginkan"],
-        "context_set":""
+        "context_set":"skripsi"
     },
     {
         "tag":"klasifikasi tipe penelitian skripsi",
@@ -52,13 +52,13 @@
         "tag":"System Development",
         "patterns":["bahasan system sistem development", "subtipe sistem system development"],
         "responses":["Sebuah kegiatan penelitian implementatif untuk membuat sebuah produk/artefak utama utuh (perangkat lunak/perangkat keras/kerangka kerja/jaringan komputer/dokumen instruksional) dari sesuatu yang belum ada menjadi ada dengan menerapkan prinsip-prinsip rekayasa secara utuh, yang meliputi analisis, perancangan, konstruksi, dan pengujian"],
-        "context_set":""
+        "context_set":"system development"
     },
     {
         "tag":"System Enchancement",
         "patterns":["bahasan system sistem enchancement", "subtipe sistem system enchancement"],
         "responses":["Sebuah kegiatan penelitian implementatif untuk membuat sebuah produk/artefak utama utuh (perangkat lunak/perangkat keras/kerangka kerja/jaringan komputer/dokumen instruksional) yang dikembangkan dari sistem yang sudah ada dengan menerapkan prinsip-prinsip rekayasa secara utuh, yang meliputi analisis, perancangan, konstruksi dan pengujian. Produk/artefak utama yang dihasilkan harus memenuhi aspek kompatibilitas dengan sistem yang sudah ada sebelumnya."],
-        "context_set":""
+        "context_set":"system development"
     },
     {
         "tag":"design and construction",
@@ -191,6 +191,175 @@
         "patterns":["prosedur ujian skripsi"],
         "responses":["Prosedur Normal:\\n 1. Mahasiswa mendaftar ke Operator Akademik - Bagian Skripsi dengan melampirkan:\\n  \t a. Skripsi yang telah disetujui disertai bukti acc kedua dosen pembimbing.\\n  \t b. KRS semester berjalan\\n  \t c. Transkrip mahasiswa\\n  \t d. Nomor whatsapp yang aktif\\n  \t e. Lembar pernyataan orisinalitas\\n  2. Operator Akademik - Bagian Skripsi merekap daftar pengajuan ujian skripsi untuk diserahkan ke Komisi Bimbingan.\\n  3. Komisi Bimbingan menyetujui pengajuan ujian skripsi dan dikembalikan ke Operator Akademik - Bagian Skripsi.\\n  4. Operator Akademik - Bagian Skripsi menyusun jadwal ujian skripsi\\n  5. Operator Akademik - Bagian Skripsi menyiapkan dokumen-dokumen\\n  diantaranya: (1) surat tugas ujian skripsi; (2) lembar penilaian ujian skripsi; (3) hasil penilaian kelayakan proposal.\\n  6. Operator Akademik - Bagian Skripsi menyerahkan dokumen-dokumen seperti pada butir (5) kepada mahasiswa.\\n  7. Mahasiswa menyampaikan dokumen-dokumen seperti pada butir (5) ditambah dokumen skripsi ke masing-masing dosen penguji dan pembimbing maksimal H-2 sebelum pelaksanaan ujian skripsi.\\n  8. Apabila ujian dilaksanakan secara daring, maka mahasiswa meminta link zoom untuk ujian kepada salah satu dosen pembimbing dan diserahkan kepada semua dosen pembimbing dan dosen penguji maksimal H-1 ujian skripsi. Apabila ujian dilaksanakan secara luring, maka bagian umum dan perlengkapan mempersiapkan ruang sidang untuk pelaksanaan ujian skripsi sesuai dengan surat tugas ujian skripsi.\\n  9. Ujian skripsi dilaksanakan.\\n  10.Pada akhir ujian, seluruh lembar penilaian dikumpulkan ke sekretaris penguji (Dosen Penguji 2) untuk dikompilasi. Saat proses kompilasi, Mahasiswa meninggalkan ruang ujian sejenak.\\n  11. Setelah dikompilasi, mahasiswa kembali memasuki ruang ujian dan hasil diumumkan oleh ketua penguji (Dosen Penguji 1).\\n  12.Mahasiswa dinyatakan lulus ujian skripsi apabila nilai akhir ujian skripsi diantara 60 (nilai huruf C) hingga 100 (nilai huruf A), jika nilai ujian skripsi kurang dari 60 maka mahasiswa wajib melakukan ujian ulang paling cepat 2 minggu setelah ujian skripsi pertama.\\n  13.Jika mahasiswa merasa nilai yang didapatkan kurang memuaskan maka mahasiswa memiliki kesempatan untuk melakukan ujian ulang sebanyak 2 kali dengan syarat mendapatkan persetujuan dari kedua dosen pembimbing. Apabila perbaikan nilai dilakukan ujian ulang sebanyak 2 kali maka nilai yang digunakan adalah nilai terbaik. Setelah ujian dan dinyatakan lulus, mahasiswa menyelesaikan revisi dari dosen penguji maksimal 2 bulan setelah pelaksanaan ujian.\\n \\n Prosedur Alternatif:\\n  1. Apabila salah satu atau kedua dosen penguji / dosen pembimbing berhalangan hadir di waktu ujian yang sudah ditentukan: Pihak yang berhalangan melapor kepada Operator Akademik - Bagian Skripsi terkait penundaan, kemudian dijadwalkan ulang pelaksanaan ujian skripsi.\\n  2. Apabila hingga 2 bulan setelah ujian mahasiswa belum menyelesaikan revisi:\\n  Mahasiswa harus melakukan ujian skripsi ulang.\\n  3. Apabila ujian ulang dikarenakan tidak lulus (nilai <60) dan pada ujian ulang kedua mahasiswa masih mendapatkan nilai <60: Mahasiswa dinyatakan lulus dengan nilai 60 atau C.\\n "],
         "context_set":""
+    },
+    {
+        "tag": "Tio Dharmawan",
+        "patterns":["tio", "dharmawan"],
+        "responses":["1. Data mining, \\2. text mining, \\3. Image, Video & Sound processing, \\4. Computer vison"],
+        "context_set":"pengampu bidang"
+    },
+    {
+        "tag": "Windi Eka Yulia Retnani",
+        "patterns":["windi", "eka", "yulia", "retnani"],
+        "responses":["1. software requirement, \\2. software design \\3. software quality \\4. business process management" ],
+        "context_set":"pengampu bidang"
+    },
+    {
+        "tag": "Antonius Cahya Prihandoko",
+        "patterns":["anton", "antonius", "cahya", "prihandoko"],
+        "responses":["1. coding theory, \\2. teori bahasa dan automata \\3. information security" ],
+        "context_set":"pengampu bidang"
+    },
+    {
+        "tag": "Yudha Alif Auliya",
+        "patterns":["yudha", "alif", "auliya"],
+        "responses":["1. machine learning, \\2. deep learning \\3. network management \\4. IT infrastructure"],
+        "context_set":"pengampu bidang"
+    },
+    {
+        "tag":"Priza Pandunata",
+        "patterns":["priza", "pandunata"],
+        "responses":["1. data mining, \\2. text mining \\3. machine learning \\4. game"],
+        "context_set" : "pengampu bidang"
+    },
+    {
+        "tag":"Fahrobby Adnan",
+        "patterns":["robi", "roby", "fahroby", "adnan"],
+        "responses":["1. information system adoption, \\2. infomation system evaluation \\3. user interface \\4. user experience"],
+        "context_set":"pengampu bidang"
+    },
+    {
+        "tag":"Achmad Maududie",
+        "patterns":["achmad", "maududi", "maududie"],
+        "responses":["1. data mining, \\2. text mining \\3. data visualization \\4. network embedded system"],
+        "context_set":"pengampu bidang"
+    },
+    {
+        "tag": "Beny Prasetyo",
+        "patterns":["beni", "beny", "prasetyo"],
+        "responses":["1. software requirement, \\2. software quality \\3. information system adoption, \\4. infomation system evaluation\\5. IT risk management"],
+        "context_set":"pengampu bidang"
+    },
+    {
+        "tag":"Nelly Oktavia Adiwijaya",
+        "patterns":["neli", "nelly", "oktavia", "adiwijaya"],
+        "responses":["1. data mining, \\2. business intelligence \\3. machine learning \\4. game\\5. deep learning"],
+        "context_set":"pengampu bidang"
+    },
+    {
+        "tag":"Diksy Media Firmansyah",
+        "patterns":["diksi", "diksy", "media", "firmansyah"],
+        "responses":["1. network embedded system, \\2. information security \\3. IT infrastructure\\4. cloud computing\\5. network security"],
+        "context_set":"pengampu bidang"
+    },
+    {
+        "tag" :"Oktalia Juwita",
+        "patterns":["okta", "oktalia", "juwita"],
+        "responses":["1. information system/technology strategy \\2. information system adoption, \\3. infomation system evaluation\\4. user interface\\5. user experience"],
+        "context_set":"pengampu bidang"
+    },
+    {
+        "tag":"Saiful Bukhori",
+        "patterns":["prof", "prof sai", "prof saiful", "bukhori"],
+        "responses":["1. business inteligence\\2. natural language proccessing\\3. machine learning\\4. deep learning\\5. game"],
+        "context_set":"pengampu bidang"
+    },
+    {
+        "tag":"Gama Wisnu Fajarianto",
+        "patterns":["gama", "wisnu", "fajarianto"],
+        "responses":["1. text minning, \\2. machine learning \\3. deep learning"],
+        "context_set":"pengampu bidang"
+    },
+    {
+        "tag":"Fajrin Nurman Arifin",
+        "patterns":["fajrin", "nurman", "arifin"],
+        "responses":["1. data minning\\2. data visualization\\3. information system/technology strategy\\4. information system/technology audit\\5. information system evaluation"],
+        "context_set":"pengampu bidang"
+    },
+    {
+        "tag":"Diah Ayu Retnani w",
+        "patterns":["diah", "ayu", "retnani"],
+        "responses":["1. business process manageement\\2. network management\\3. IT infrastructure\\4. deep learning\\5. game"],
+        "context_set":"pengampu bidang"
+    },
+    {
+        "tag":"Dwiretno Istiyadi Swasono",
+        "patterns":["dwiretno", "istiyadi", "istiadi", "swasono"],
+        "responses":["1. machine learning, \\2. deep learning \\3. standalone embedded system \\4. network embedded system"],
+        "context_set":"pengampu bidang"
+    },
+    {
+        "tag":"Nova El Maidah",
+        "patterns":["nova", "el", "maidah"],
+        "responses":["1. machine learning, \\2. deep learning \\3. standalone embedded system"],
+        "context_set":"pengampu bidang"
+    },
+    {
+        "tag":"Yanuar Nurdiansyah",
+        "patterns":["yanuar", "nurdiansyah"],
+        "responses":["1. natural language processing\\2. machine learning\\3. information security\\4. network security\\5. IT infrastructure"],
+        "context_set":"pengampu bidang"
+    },
+    {
+        "tag":"Tri Agustina Nugrahani",
+        "patterns":["tri", "agustin", "agustina", "nugrahani"],
+        "responses":["1. software requirement, \\2. software design \\3. enterprise management system"],
+        "context_set":"pengampu bidang"
+    },
+    {
+        "tag":"Muhammad Ariful Furqon",
+        "patterns":["ariful", "furqon"],
+        "responses":["1. data mining, \\2. text mining \\3. natural language proccessing \\4. machine learning\\5. game"]
+    },
+    {
+        "tag":"Anang Andrianto",
+        "patterns":["anang", "andrianto"],
+        "responses":["1. software requirement, \\2. software design \\3. Augmented/virtual reality\\4. user interface\\5. user experience"],
+        "context_set":"pengampu bidang"
+    },
+    {
+        "tag":"Muhamad Arief Hidayat",
+        "patterns":["arif", "arief", "hidayat"],
+        "responses":["1. data minning\\2. data visualization\\3. business intelligence\\4. image, video & sound proccessing\\5. computer vision"],
+        "context_set":"pengampu bidang"
+    },
+    {
+        "tag":"Karina Nine Amalia",
+        "patterns":["karina", "nine", "amalia"],
+        "responses":["1. Business Process Management\\2. Data and Knowledge Management\\3. Enterprise Management System"],
+        "context_set":"pengampu bidang"
+
+    },
+    {
+        "tag":"Mohammad Zarkasi",
+        "patterns":["zarkasi"],
+        "responses":["1. network embedded system,\\2. network securty\\3. network management\\4. high performance computing\\5. cloud computing"],
+        "context_set":"pengampu bidang"
+
+    },        {
+        "tag":"Slamin",
+        "patterns":["prof slamin", "slamin"],
+        "responses":["1. machine learning\\2. graph theory"],
+        "context_set":"pengampu bidang"
+
+    },        {
+        "tag":"Gayatri Dwi Santika",
+        "patterns":["gayatri", "dwi", "santika"],
+        "responses":[""],
+        "context_set":"pengampu bidang"
+
+    },        {
+        "tag":"Qurrota Ayuni Ar Ruhimat",
+        "patterns":[],
+        "responses":[],
+        "context_set":"pengampu bidang"
+
+    },        {
+        "tag":"Januar Adi Putra",
+        "patterns":[],
+        "responses":[],
+        "context_set":"pengampu bidang"
+
     }
 ]
 }

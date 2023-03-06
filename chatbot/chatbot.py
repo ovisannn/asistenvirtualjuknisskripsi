@@ -15,8 +15,6 @@ from Sastrawi.Stemmer.StemmerFactory import StemmerFactory
 from tensorflow import keras
 from keras.models import load_model
 
-import chatbotHelpers
-import re
 
 lemmatizer = WordNetLemmatizer()
 op = open('chatbot/intents.json')
@@ -74,6 +72,7 @@ def bagOfWords(sentence):
     
 
 def predictClasses(sentence):
+    sentence = sentence.lower()
     bow = bagOfWords(sentence)
     # print(bow)
     res = model.predict(np.array([bow]))[0]
@@ -92,7 +91,7 @@ def predictClasses(sentence):
 
 def getResponse(intentList, intentJson):
     print(intentList[0]['probability'])
-    ERROR_THRESHOLD = 0.98
+    ERROR_THRESHOLD = 0.80
     if float(intentList[0]['probability'])< ERROR_THRESHOLD:
         return "Mohon maaf masukan tidak dikenali"
     tag = intentList[0]['intent']
@@ -106,9 +105,9 @@ def getResponse(intentList, intentJson):
 
 
 
-while True:
-    print('the bot is running...')
-    message = input('INPUT : ')
-    ints = predictClasses(message)
-    res = getResponse(ints, intents)
-    print('BOT SAYS : ',  res)
+# while True:
+#     print('the bot is running...')
+#     message = input('INPUT : ')
+#     ints = predictClasses(message)
+#     res = getResponse(ints, intents)
+#     print('BOT SAYS : ',  res)
