@@ -59,6 +59,116 @@
             "patterns":["diksi", "diksy", "media", "firmansyah"],
             "responses":["1. network embedded system, \\2. information security \\3. IT infrastructure\\4. cloud computing\\5. network security"],
             "context_set":"pengampu bidang"
+        },
+        {
+            "tag" :"Oktalia Juwita",
+            "patterns":["okta", "oktalia", "juwita"],
+            "responses":["1. information system/technology strategy \\2. information system adoption, \\3. infomation system evaluation\\4. user interface\\5. user experience"],
+            "context_set":"pengampu bidang"
+        },
+        {
+            "tag":"Saiful Bukhori",
+            "patterns":["prof", "prof sai", "prof saiful", "bukhori"],
+            "responses":["1. business inteligence\\2. natural language proccessing\\3. machine learning\\4. deep learning\\5. game"],
+            "context_set":"pengampu bidang"
+        },
+        {
+            "tag":"Gama Wisnu Fajarianto",
+            "patterns":["gama", "wisnu", "fajarianto"],
+            "responses":["1. text minning, \\2. machine learning \\3. deep learning"],
+            "context_set":"pengampu bidang"
+        },
+        {
+            "tag":"Fajrin Nurman Arifin",
+            "patterns":["fajrin", "nurman", "arifin"],
+            "responses":["1. data minning\\2. data visualization\\3. information system/technology strategy\\4. information system/technology audit\\5. information system evaluation"],
+            "context_set":"pengampu bidang"
+        },
+        {
+            "tag":"Diah Ayu Retnani w",
+            "patterns":["diah", "ayu", "retnani"],
+            "responses":["1. business process manageement\\2. network management\\3. IT infrastructure\\4. deep learning\\5. game"],
+            "context_set":"pengampu bidang"
+        },
+        {
+            "tag":"Dwiretno Istiyadi Swasono",
+            "patterns":["dwiretno", "istiyadi", "istiadi", "swasono"],
+            "responses":["1. machine learning, \\2. deep learning \\3. standalone embedded system \\4. network embedded system"],
+            "context_set":"pengampu bidang"
+        },
+        {
+            "tag":"Nova El Maidah",
+            "patterns":["nova", "el", "maidah"],
+            "responses":["1. machine learning, \\2. deep learning \\3. standalone embedded system"],
+            "context_set":"pengampu bidang"
+        },
+        {
+            "tag":"Yanuar Nurdiansyah",
+            "patterns":["yanuar", "nurdiansyah"],
+            "responses":["1. natural language processing\\2. machine learning\\3. information security\\4. network security\\5. IT infrastructure"],
+            "context_set":"pengampu bidang"
+        },
+        {
+            "tag":"Tri Agustina Nugrahani",
+            "patterns":["tri", "agustin", "agustina", "nugrahani"],
+            "responses":["1. software requirement, \\2. software design \\3. enterprise management system"],
+            "context_set":"pengampu bidang"
+        },
+        {
+            "tag":"Muhammad Ariful Furqon",
+            "patterns":["ariful", "furqon"],
+            "responses":["1. data mining, \\2. text mining \\3. natural language proccessing \\4. machine learning\\5. game"]
+        },
+        {
+            "tag":"Anang Andrianto",
+            "patterns":["anang", "andrianto"],
+            "responses":["1. software requirement, \\2. software design \\3. Augmented/virtual reality\\4. user interface\\5. user experience"],
+            "context_set":"pengampu bidang"
+        },
+        {
+            "tag":"Muhamad Arief Hidayat",
+            "patterns":["arif", "arief", "hidayat"],
+            "responses":["1. data minning\\2. data visualization\\3. business intelligence\\4. image, video & sound proccessing\\5. computer vision"],
+            "context_set":"pengampu bidang"
+        },
+        {
+            "tag":"Karina Nine Amalia",
+            "patterns":["karina", "nine", "amalia"],
+            "responses":["1. Business Process Management\\2. Data and Knowledge Management\\3. Enterprise Management System"],
+            "context_set":"pengampu bidang"
+
+        },
+        {
+            "tag":"Mohammad Zarkasi",
+            "patterns":["zarkasi"],
+            "responses":["1. network embedded system,\\2. network securty\\3. network management\\4. high performance computing\\5. cloud computing"],
+            "context_set":"pengampu bidang"
+
+        },        {
+            "tag":"Slamin",
+            "patterns":["prof slamin", "slamin"],
+            "responses":["1. machine learning\\2. graph theory"],
+            "context_set":"pengampu bidang"
+
+        },        {
+            "tag":"Gayatri Dwi Santika",
+            "patterns":["gayatri", "dwi", "santika"],
+            "responses":[""],
+            "context_set":"pengampu bidang"
+
+        },        {
+            "tag":"Qurrota Ayuni Ar Ruhimat",
+            "patterns":[],
+            "responses":[],
+            "context_set":"pengampu bidang"
+
+        },        {
+            "tag":"Januar Adi Putra",
+            "patterns":[],
+            "responses":[],
+            "context_set":"pengampu bidang"
+
         }
+
     ]
 }

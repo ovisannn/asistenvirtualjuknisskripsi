@@ -81,9 +81,9 @@ trainY = list(training[:, 1])
 
 model = Sequential()
 model.add(Dense(128, input_shape =(len(trainX[0]), ), activation='relu')) #128 256 512 1024 2048
-# model.add(Dropout(0.5))
+model.add(Dropout(0.5))
 model.add(Dense(64, activation='relu')) #64 128 256 512 1024 2048
-# model.add(Dropout(0.5))
+model.add(Dropout(0.5))
 model.add(Dense(len(trainY[0]), activation='softmax'))
 
 
