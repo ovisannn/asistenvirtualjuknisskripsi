@@ -99,31 +99,31 @@
     {
         "tag":"Manajemen Sistem Informasi",
         "patterns":["manajemen sistem informasi", "pengertian manajemen sistem informasi"],
-        "responses":["Bidang Manajemen Sistem Informasi (MSI) menaungi berbagai riset keahlian Sistem Informasi mulai dari aspek strategis, manajemen proyek, peningkatan performa proses bisnis dengan dukungan SI/TI sampai pada evaluasi kinerja TI dalam mendukung organisasi. Topik-topik penelitian yang termasuk ke dalam MSI antara lain:\\1. TI sebagai tools Strategi\\2. Penerapan E-Government\\3. Manajemen & Perubahan Proyek TI\\4. Kota Cerdas\\5. Kematangan Tata Kelola TI (IT Maturity)\\6. Pengelolaan Layanan TI\\7. Penjaminan Mutu Proses TI\\8. Pengelolaan Risiko TI\\9. IT Productivity Paradox\\10.Evaluasi Kinerja"],
+        "responses":["Bidang Manajemen Sistem Informasi (MSI) menaungi berbagai riset keahlian Sistem Informasi mulai dari aspek strategis, manajemen proyek, peningkatan performa proses bisnis dengan dukungan SI/TI sampai pada evaluasi kinerja TI dalam mendukung organisasi. Topik-topik penelitian yang termasuk ke dalam MSI antara lain:\n1. TI sebagai tools Strategi\n2. Penerapan E-Government\n3. Manajemen & Perubahan Proyek TI\n4. Kota Cerdas\n5. Kematangan Tata Kelola TI (IT Maturity)\n6. Pengelolaan Layanan TI\n7. Penjaminan Mutu Proses TI\n8. Pengelolaan Risiko TI\n9. IT Productivity Paradox\n10.Evaluasi Kinerja"],
         "context_set":""
     },
     {
         "tag":"jaringan dan keamanan",
         "patterns":["jaringan dan keamanan", "pengertian jaringan dan keamanan"],
-        "responses":["Bidang jaringan dan keamanan (JK) menaungi berbagai riset pada bidang jaringan (network) dan keamanan (security) meliputi:\\1. Arsitektur Jaringan\\2. Optimasi Jaringan\\3. Keamanan Jaringan\\4. Keamanan Informasi\\5. Teori Graf\\6. Digital Forensik"],
+        "responses":["Bidang jaringan dan keamanan (JK) menaungi berbagai riset pada bidang jaringan (network) dan keamanan (security) meliputi:\n1. Arsitektur Jaringan\n2. Optimasi Jaringan\n3. Keamanan Jaringan\n4. Keamanan Informasi\n5. Teori Graf\n6. Digital Forensik"],
         "context_set":""
     },
     {
         "tag":"embedded sistem",
         "patterns":["embedded sistem", "pengertian embedded sistem"],
-        "responses":["Bidang embedded system (ES) menaungi berbagai riset di bidang sistem tertanam meliputi:\\1. Internet of Things (IoT)\\2. Robotika\\3. Sistem Informasi Geografis (SIG)\\4. Hardware\\5. Embedded System untuk Monitoring\\6. Sensor / Mikrokontroler\\7. dll"],
+        "responses":["Bidang embedded system (ES) menaungi berbagai riset di bidang sistem tertanam meliputi:\\1. Internet of Things (IoT)\n2. Robotika\n3. Sistem Informasi Geografis (SIG)\n4. Hardware\n5. Embedded System untuk Monitoring\n6. Sensor / Mikrokontroler\n7. dll"],
         "context_set":""
     },
     {
         "tag":"komputasi cerdas",
         "patterns":["komputasi cerdas", "pengertian komputasi cerdas"],
-        "responses":["Bidang Komputasi Cerdas (KC) menaungi berbagai riset yang berada pada komputasi cerdas, meliputi :\\1. Pengolahan Citra Digital\\2. Analisis Data Multivariat\\3. Data Mining\\4. Visi Komputer\\5. Sistem Temu Kembali Informasi\\6. Kecerdasan Buatan//"],
+        "responses":["Bidang Komputasi Cerdas (KC) menaungi berbagai riset yang berada pada komputasi cerdas, meliputi :\n1. Pengolahan Citra Digital\n2. Analisis Data Multivariat\n3. Data Mining\n4. Visi Komputer\n5. Sistem Temu Kembali Informasi\n6. Kecerdasan Buatan//"],
         "context_set":""
     },
     {
         "tag":"data science",
         "patterns":["data science", "pengertian data science"],
-        "responses":["Bidang Data Science (DS) merupakan bidang yang menaungi topik penelitian yang meliputi :\\1. Big Data\\2. Pemodelan dan Analisis Data\\3. Natural Language Processing (NLP)\\4. Social Media Analysis\\5. High Performance Computing (HPC)//"],
+        "responses":["Bidang Data Science (DS) merupakan bidang yang menaungi topik penelitian yang meliputi :\n1. Big Data\n2. Pemodelan dan Analisis Data\n3. Natural Language Processing (NLP)\n4. Social Media Analysis\n5. High Performance Computing (HPC)"],
         "context_set":""
     },
     {
@@ -141,216 +141,216 @@
     {
         "tag":"list kelayakan proposal skripsi",
         "patterns":["list kelayakan proposal skripsi"],
-        "responses":["1. Kelayakan latar belakang\\n 2. Kelayakan rumusan masalah dan tujuan\\n 3. Kelayakan landasan kepustakaan\\n 4. kelayakan metodologi penelitian\\n 5. Kelayakan daftar referensi"],
+        "responses":["1. Kelayakan latar belakang\n 2. Kelayakan rumusan masalah dan tujuan\n 3. Kelayakan landasan kepustakaan\n 4. kelayakan metodologi penelitian\n 5. Kelayakan daftar referensi"],
         "context_set":""
     },
     {
         "tag": "Struktur Penulisan Proposal",
         "patterns":["format penulisan proposal skripsi"],
-        "responses":["1. Bagian awal, yang bersifat pendukung, terdiri atas:\\n \t a. Halaman Judul\\n \t \t i. Logo Universitas Jember,\\n \t \t ii. Judul,\\n \t \t iii. Jenis karya ilmiah (Proposal Skripsi),\\n \t \t iv. nama dan identitas penulis,\\n \t \t v. institusi,\\n \t \t vi. dan tahun.\\n \t b. Halaman Pernyataan Orisinalitas\\n 2. Bagian utama proposal, terdiri atas:\\n \t a. Latar Belakang\\n \t b. Rumusan Masalah\\n \t c. Tujuan Penelitian\\n \t d. Manfaat Penelitian\\n \t e. Batasan Masalah\\n \t f. Tinjauan Pustaka\\n \t \t i. Penelitian Terdahulu\\n \t \t ii. Landasan Teori\\n \t g. Metodologi Penelitian\\n \t h. Luaran Penelitian\\n \t i. Jadwal Penelitian\\n 3. Bagian akhir proposal, terdiri atas:\\n \t a. Daftar Pustaka\\n \t b. Lampiran\\n"],
+        "responses":["1. Bagian awal, yang bersifat pendukung, terdiri atas:\n \t a. Halaman Judul\n \t \t i. Logo Universitas Jember,\n \t \t ii. Judul,\n \t \t iii. Jenis karya ilmiah (Proposal Skripsi),\n \t \t iv. nama dan identitas penulis,\n \t \t v. institusi,\n \t \t vi. dan tahun.\n \t b. Halaman Pernyataan Orisinalitas\n 2. Bagian utama proposal, terdiri atas:\n \t a. Latar Belakang\n \t b. Rumusan Masalah\n \t c. Tujuan Penelitian\n \t d. Manfaat Penelitian\n \t e. Batasan Masalah\n \t f. Tinjauan Pustaka\n \t \t i. Penelitian Terdahulu\n \t \t ii. Landasan Teori\n \t g. Metodologi Penelitian\n \t h. Luaran Penelitian\n \t i. Jadwal Penelitian\n 3. Bagian akhir proposal, terdiri atas:\n \t a. Daftar Pustaka\n \t b. Lampiran\n"],
         "context_set":"struktur penulisan"
     },
     {
         "tag": "Struktur penulisan skripsi",
         "patterns":["format penulisan skripsi"],
-        "responses":["1. Bagian awal, yang bersifat pendukung, terdiri atas:\\n \t a. Halaman Sampul\\n \t b. Halaman Judul\\n \t c. Halaman Pengesahan (ditandatangani Penguji, Pembimbing dan Dekan)\\n \t d. Halaman Pernyataan Orisinalitas\\n \t e. Ringkasan\\n \t f. Daftar Isi\\n \t g. Daftar Tabel\\n \t h. Daftar Gambar\\n \t i. Daftar Lampiran\\n 2. Bagian utama, yang menggambarkan substansi skripsi, terdiri atas:Bab 1:\\n \t Bab 1: Pendahuluan\\n \t Bab 2: Tinjauan Pustaka\\n \t \t 2.1 Penelitian Terdahulu\\n \t \t 2.2 Landasan Teori\\n \t Bab 3: Metodologi Penelitian\\n \t Bab 4 sampai n: Bab-bab tentang Hasil dan Pembahasan\\n \t Bab (n + 1): Kesimpulan dan Saran\\n 3. Bagian akhir, yang melengkapi skripsi, terdiri atas:\\n \t a. Daftar Pustaka\\n \t b. Lampiran\\n "],
+        "responses":["1. Bagian awal, yang bersifat pendukung, terdiri atas:\n \t a. Halaman Sampul\n \t b. Halaman Judul\n \t c. Halaman Pengesahan (ditandatangani Penguji, Pembimbing dan Dekan)\n \t d. Halaman Pernyataan Orisinalitas\n \t e. Ringkasan\n \t f. Daftar Isi\n \t g. Daftar Tabel\n \t h. Daftar Gambar\n \t i. Daftar Lampiran\n 2. Bagian utama, yang menggambarkan substansi skripsi, terdiri atas:Bab 1:\n \t Bab 1: Pendahuluan\n \t Bab 2: Tinjauan Pustaka\n \t \t 2.1 Penelitian Terdahulu\n \t \t 2.2 Landasan Teori\n \t Bab 3: Metodologi Penelitian\n \t Bab 4 sampai n: Bab-bab tentang Hasil dan Pembahasan\n \t Bab (n + 1): Kesimpulan dan Saran\n 3. Bagian akhir, yang melengkapi skripsi, terdiri atas:\n \t a. Daftar Pustaka\n \t b. Lampiran\n "],
         "context_set":"struktur penulisan"
     },
     {
         "tag": "plagiarisme",
         "patterns":["plagiarisme"],
-        "responses":["Tipe-tipe plagiarisme diantaranya adalah:\\n 1. Menyerahkan atau mempublikasikan hasil karya orang lain sebagai milik sendiri\\n 2. Menyalin kata-kata atau ide dari orang lain tanpa memberikan kredit\\n 3. Tidak memberikan tanda kutip pada sebuah kutipan\\n 4. Memberikan informasi yang salah tentang sumber dari sebuah kutipan\\n 5. Mengubah kata tetapi menyalin struktur kalimat dari sebuah sumber tanpa memberikan kredit\\n 6. Menyalin terlalu banyak kata atau ide dari sumber lain sehingga menjadi bagian yang mayoritas atau dominan dari sebuah pekerjaan yang dilaporkan, baik dengan memberikan kredit ataupun tidak."],
+        "responses":["Tipe-tipe plagiarisme diantaranya adalah:\n 1. Menyerahkan atau mempublikasikan hasil karya orang lain sebagai milik sendiri\n 2. Menyalin kata-kata atau ide dari orang lain tanpa memberikan kredit\n 3. Tidak memberikan tanda kutip pada sebuah kutipan\n 4. Memberikan informasi yang salah tentang sumber dari sebuah kutipan\n 5. Mengubah kata tetapi menyalin struktur kalimat dari sebuah sumber tanpa memberikan kredit\n 6. Menyalin terlalu banyak kata atau ide dari sumber lain sehingga menjadi bagian yang mayoritas atau dominan dari sebuah pekerjaan yang dilaporkan, baik dengan memberikan kredit ataupun tidak."],
         "context_set":""
     },
     {
         "tag": "menghindari plagiarisme",
         "patterns":["cara menghindari plagiarisme"],
-        "responses":["Untuk menghindari plagiarisme, hal-hal yang bisa dilakukan adalah:\\n 1. Memahami ide dari teks yang akan dirujuk sehingga memudahkan parafrase\\n 2. Melakukan parafrase dan sitasi dengan benar\\n 3. Melakukan pengutipan langsung dan sitasi dengan benar\\n 4. Menganalisis dan mengevaluasi keakuratan dan kredibilitas sumber\\n 5. Melakukan konsultasi dengan Pembimbing penelitian atau peneliti yang lebih berpengalaman"],
+        "responses":["Untuk menghindari plagiarisme, hal-hal yang bisa dilakukan adalah:\n 1. Memahami ide dari teks yang akan dirujuk sehingga memudahkan parafrase\n 2. Melakukan parafrase dan sitasi dengan benar\n 3. Melakukan pengutipan langsung dan sitasi dengan benar\n 4. Menganalisis dan mengevaluasi keakuratan dan kredibilitas sumber\n 5. Melakukan konsultasi dengan Pembimbing penelitian atau peneliti yang lebih berpengalaman"],
         "context_set":""
     },
     {
         "tag":"mekanisme pemeriksaan orisinalitas",
         "patterns":["mekanisme pemeriksaan orisinalitas"],
-        "responses":["Mekanisme pemeriksaan orisinalitas skripsi yaitu:\\n  1. Mahasiswa melakukan tes plagiasi terhadap dokumen skripsi menggunakan Turnitin melalui akun Dosen Pembimbing I dan atau Dosen Pembimbing 2.\\n  2. Pengecekan similarity dilakukan oleh Dosen Pembimbing 1 dan atau Dosen Pembimbing 2 dengan ketentuan:\\n a. Batas similarity maksimal dokumen skripsi adalah 30% (bagian utama skripsi) dan batas similarity maksimal per source adalah 10%.\\n b. Apabila tingkat kemiripan melebihi batas toleransi similarity (poin a) dan dianggap tidak melanggar plagiarisme, maka dibutuhkan expert judgement dari Dosen Pembimbing.\\n 3. Hasil tes plagiasi akan dilampirkan saat mahasiswa mendaftar Seminar Proposal dan Ujian Skripsi\\n "],
+        "responses":["Mekanisme pemeriksaan orisinalitas skripsi yaitu:\n  1. Mahasiswa melakukan tes plagiasi terhadap dokumen skripsi menggunakan Turnitin melalui akun Dosen Pembimbing I dan atau Dosen Pembimbing 2.\n  2. Pengecekan similarity dilakukan oleh Dosen Pembimbing 1 dan atau Dosen Pembimbing 2 dengan ketentuan:\n a. Batas similarity maksimal dokumen skripsi adalah 30% (bagian utama skripsi) dan batas similarity maksimal per source adalah 10%.\n b. Apabila tingkat kemiripan melebihi batas toleransi similarity (poin a) dan dianggap tidak melanggar plagiarisme, maka dibutuhkan expert judgement dari Dosen Pembimbing.\n 3. Hasil tes plagiasi akan dilampirkan saat mahasiswa mendaftar Seminar Proposal dan Ujian Skripsi "],
         "context_set":""
     },
     {
         "tag":"Prosedur Operasional Standar Pengajuan Judul dan Dosen Pembimbing Skripsi",
         "patterns":["prosedur pengajuan judul dan dosen pembimbing"],
-        "responses":["Prosedur Normal: \t 1. Mahasiswa yang telah memenuhi persyaratan menempuh skripsi (telah menempuh minimal 120 SKS, PP ≥ 90% dan minimal IPK 2,00) dapat memilih salah satu topik penelitian yang diminati.\\n \t 2. Mahasiswa melakukan konsultasi/diskusi terkait rencana penelitian kepada calon dosen pembimbing yang diinginkan sesuai dengan daftar peminatan bidang penelitian dosen. Bidang penelitian masing-masing dosen telah tertulis pada profil dosen.\\n \t 3. Calon dosen pembimbing akan melakukan proses komunikasi / wawancara / mekanisme lain yang bertujuan untuk memastikan kesiapan mahasiswa dalam melakukan penelitian.\\n \t 4. Apabila calon dosen pembimbing telah menyetujui rencana penelitian mahasiswa, calon dosen pembimbing menandatangani formulir persetujuan dosen pembimbing dan mengisi kontribusi (substansi) sesuai dengan bidang penelitian calon dosen pembimbing terhadap rencana skripsi yang akan dikerjakan oleh mahasiswa.\\n \t 5. Calon dosen pembimbing kemudian merekomendasikan calon dosen pembimbing lainnya. Sebagai catatan, kedua calon dosen pembimbing harus memiliki peran dan kontribusi (substansi) terhadap topik penelitian yang diambil oleh mahasiswa (sesuai yang tertera dalam formulir persetujuan calon dosen pembimbing).\\n \t 6. Mahasiswa melakukan komunikasi dan berkonsultasi dengan rekomendasi calon dosen pembimbing lainnya.\\n \t 7. Apabila rekomendasi calon dosen pembimbing menyetujui, maka dosen tersebut menandatangani formulir persetujuan dosen pembimbing yang sebelumnya telah ditandatangani oleh calon dosen pembimbing lainnya dan mengisi kontribusi (substansi) dosen pembimbing terhadap rencana skripsi yang akan dikerjakan oleh mahasiswa.\\n \t 8. Mahasiswa mengunggah draft proposal di SISTER\\n \t 9. Mahasiswa melakukan pendaftaran ke Operator Akademik - Bagian Skripsi sebelum deadline masa pengajuan plotting dosen pembimbing dengan membawa:\\n \t \t a. Draft Proposal\\n \t \t b. Formulir Persetujuan Calon Dosen Pembimbing Skripsi yang telah ditandatangani oleh kedua calon dosen pembimbing\\n \t \t c. Cetak KRS semester berjalan\\n \t 10.Operator Akademik - Bagian Skripsi akan melakukan rekap pengajuan dan menyerahkan ke Komisi Bimbingan untuk selanjutnya dilakukan penetapan (plotting) calon dosen pembimbing\\n \t 11. Komisi Bimbingan bersama Kaprodi menetapkan dosen pembimbing.\\n \t 12.Komisi Bimbingan memasukkan nama-nama dosen pembimbing ke SISTER\\n \t 13.Operator Akademik - Bagian Skripsi mencetak surat tugas dosen pembimbing dari SISTER.\\n \t 14.Operator Akademik - Bagian Skripsi menyerahkan surat tugas dosen pembimbing kepada mahasiswa.\\n \t 15.Mahasiswa menyerahkan surat tugas dosen pembimbing kepada dosen pembimbing masing-masing.\\n\\n Prosedur Alternatif:\\n \t 1. Komisi Bimbingan bersama Kaprodi menetapkan dosen pembimbing berdasarkan informasi yang ada pada data profil dosen antara lain: (1) bidang minat penelitian; (2) riwayat mengajar; (3) riwayat penelitian. Apabila usulan mahasiswa tidak disetujui Komisi Bimbingan, maka mahasiswa disarankan untuk berkonsultasi ke Koordinator Program Studi.\\n \t 2. Koordinator Program Studi merekomendasikan kembali usulan calon dosen pembimbing skripsi berdasarkan kesesuaian dengan data profil dosen.\\n \t 3. Mahasiswa melakukan komunikasi dan berkonsultasi dengan calon dosen pembimbing yang direkomendasikan oleh Koordinator Program Studi.\\n \t 4. Mahasiswa melaksanakan prosedur normal seperti pada poin nomor 7 dan seterusnya.\\n"],
+        "responses":["Prosedur Normal: \t 1. Mahasiswa yang telah memenuhi persyaratan menempuh skripsi (telah menempuh minimal 120 SKS, PP ≥ 90% dan minimal IPK 2,00) dapat memilih salah satu topik penelitian yang diminati.\n \t 2. Mahasiswa melakukan konsultasi/diskusi terkait rencana penelitian kepada calon dosen pembimbing yang diinginkan sesuai dengan daftar peminatan bidang penelitian dosen. Bidang penelitian masing-masing dosen telah tertulis pada profil dosen.\n \t 3. Calon dosen pembimbing akan melakukan proses komunikasi / wawancara / mekanisme lain yang bertujuan untuk memastikan kesiapan mahasiswa dalam melakukan penelitian.\n \t 4. Apabila calon dosen pembimbing telah menyetujui rencana penelitian mahasiswa, calon dosen pembimbing menandatangani formulir persetujuan dosen pembimbing dan mengisi kontribusi (substansi) sesuai dengan bidang penelitian calon dosen pembimbing terhadap rencana skripsi yang akan dikerjakan oleh mahasiswa.\n \t 5. Calon dosen pembimbing kemudian merekomendasikan calon dosen pembimbing lainnya. Sebagai catatan, kedua calon dosen pembimbing harus memiliki peran dan kontribusi (substansi) terhadap topik penelitian yang diambil oleh mahasiswa (sesuai yang tertera dalam formulir persetujuan calon dosen pembimbing).\n \t 6. Mahasiswa melakukan komunikasi dan berkonsultasi dengan rekomendasi calon dosen pembimbing lainnya.\n \t 7. Apabila rekomendasi calon dosen pembimbing menyetujui, maka dosen tersebut menandatangani formulir persetujuan dosen pembimbing yang sebelumnya telah ditandatangani oleh calon dosen pembimbing lainnya dan mengisi kontribusi (substansi) dosen pembimbing terhadap rencana skripsi yang akan dikerjakan oleh mahasiswa.\n \t 8. Mahasiswa mengunggah draft proposal di SISTER\n \t 9. Mahasiswa melakukan pendaftaran ke Operator Akademik - Bagian Skripsi sebelum deadline masa pengajuan plotting dosen pembimbing dengan membawa:\n \t \t a. Draft Proposal\n \t \t b. Formulir Persetujuan Calon Dosen Pembimbing Skripsi yang telah ditandatangani oleh kedua calon dosen pembimbing\n \t \t c. Cetak KRS semester berjalan\n \t 10.Operator Akademik - Bagian Skripsi akan melakukan rekap pengajuan dan menyerahkan ke Komisi Bimbingan untuk selanjutnya dilakukan penetapan (plotting) calon dosen pembimbing\n \t 11. Komisi Bimbingan bersama Kaprodi menetapkan dosen pembimbing.\n \t 12.Komisi Bimbingan memasukkan nama-nama dosen pembimbing ke SISTER\n \t 13.Operator Akademik - Bagian Skripsi mencetak surat tugas dosen pembimbing dari SISTER.\n \t 14.Operator Akademik - Bagian Skripsi menyerahkan surat tugas dosen pembimbing kepada mahasiswa.\n \t 15.Mahasiswa menyerahkan surat tugas dosen pembimbing kepada dosen pembimbing masing-masing.\n\n Prosedur Alternatif:\n \t 1. Komisi Bimbingan bersama Kaprodi menetapkan dosen pembimbing berdasarkan informasi yang ada pada data profil dosen antara lain: (1) bidang minat penelitian; (2) riwayat mengajar; (3) riwayat penelitian. Apabila usulan mahasiswa tidak disetujui Komisi Bimbingan, maka mahasiswa disarankan untuk berkonsultasi ke Koordinator Program Studi.\n \t 2. Koordinator Program Studi merekomendasikan kembali usulan calon dosen pembimbing skripsi berdasarkan kesesuaian dengan data profil dosen.\n \t 3. Mahasiswa melakukan komunikasi dan berkonsultasi dengan calon dosen pembimbing yang direkomendasikan oleh Koordinator Program Studi.\n \t 4. Mahasiswa melaksanakan prosedur normal seperti pada poin nomor 7 dan seterusnya."],
         "context_set":""
     },
     {
         "tag": "Prosedur Operasional Standar Seminar Proposal",
         "patterns":["prosedur seminar proposal"],
-        "responses":["Prosedur normal:\\n 1. Mahasiswa mendaftar ke Operator Akademik - Bagian Skripsi dengan melampirkan:\\n \t a. Proposal skripsi yang telah disetujui disertai bukti acc kedua dosen pembimbing.\\n \t b. KRS semester berjalan\\n \t c. Bukti telah mengikuti kegiatan seminar proposal sebanyak 20 kali seminar\\n \t d. Nomor whatsapp yang aktif\\n \t e. Lembar pernyataan orisinalitas\\n 2. Operator Akademik - Bagian Skripsi merekap daftar pengajuan seminar proposal untuk diserahkan ke Komisi Bimbingan\\n 3. Komisi Bimbingan melakukan plotting dosen penguji 1 dan 2 untuk masing-masing peserta seminar proposal.\\n 4. Komisi Bimbingan menyerahkan hasil plotting kepada Operator Akademik - Bagian Skripsi\\n 5. Operator Akademik - Bagian Skripsi menyusun jadwal seminar proposal\\n 6. Operator Akademik - Bagian Skripsi membuat surat tugas seminar proposal kemudian di-scan.\\n 7. Operator Akademik - Bagian Skripsi menyerahkan scan surat tugas seminar proposal dan soft file formulir penilaian seminar proposal kepada mahasiswa melalui whatsapp.\\n 8. Mahasiswa menyampaikan surat tugas, proposal skripsi, dan formulir penilaian seminar proposal ke masing-masing dosen penguji dan pembimbing melalui whatsapp / email maksimal H-2 sebelum pelaksanaan seminar proposal.\\n 9. Operator Akademik - Bagian Skripsi mengirimkan jadwal pelaksanaan seminar proposal kepada para koordinator pelaksana seminar proposal masing-masing program studi (himpunan mahasiswa prodi).\\n 10.Pelaksana seminar proposal masing-masing program studi menyiapkan ruangan seminar proposal dan menyelenggarakan seminar proposal dengan menyiapkan moderator untuk masing-masing ruangan.\\n 11. Setelah seminar proposal selesai, dosen pembahas mengisi penilaian kelayakan proposal dan dikirimkan ke Operator Akademik - Bagian Skripsi.\\n 12.Operator Akademik - Bagian Skripsi mengirimkan hasil penilaian kelayakan proposal kepada mahasiswa.\\n 13.Mahasiswa melakukan perbaikan terhadap proposal skripsi berdasarkan catatan perbaikan yang ada pada hasil penilaian kelayakan proposal.\\n \\n Prosedur Alternatif:\\n 1. Apabila salah satu dosen pembimbing berhalangan melaksanakan seminar proposal:\\n Pihak yang berhalangan melaporkan ke Operator Akademik - Bagian Skripsi lengkap beserta alasan yang menyebabkan berhalangan melaksanakan seminar proposal. Seminar proposal tetap dilanjutkan.\\n 2. Apabila kedua dosen pembimbing berhalangan melaksanakan seminar proposal:\\n Pihak yang berhalangan melaporkan ke Operator Akademik - Bagian Skripsi lengkap beserta alasan yang menyebabkan berhalangan melaksanakan seminar proposal. Seminar proposal akan ditunda dan dijadwalkan ulang oleh Operator Akademik - Bagian Skripsi.\\n 3. Apabila salah satu atau kedua dosen penguji mengkonfirmasi berhalangan melaksanakan Seminar Proposal maksimal H-2:\\n Pihak yang berhalangan melaporkan ke Operator Akademik - Bagian Skripsi lengkap beserta alasan yang menyebabkan berhalangan melaksanakan seminar proposal. Operator Akademik - Bagian Skripsi akan melakukan plotting ulang dosen penguji.\\n 4. Apabila salah satu atau kedua dosen penguji mengkonfirmasi berhalangan melaksanakan Seminar Proposal pada H-1:\\n Pihak yang berhalangan melaporkan ke Operator Akademik - Bagian Skripsi lengkap beserta alasan yang menyebabkan berhalangan melaksanakan seminar proposal. Seminar proposal akan ditunda dan dijadwalkan ulang oleh Operator Akademik - Bagian Skripsi.\\n "],
+        "responses":["Prosedur normal:\n 1. Mahasiswa mendaftar ke Operator Akademik - Bagian Skripsi dengan melampirkan:\n \t a. Proposal skripsi yang telah disetujui disertai bukti acc kedua dosen pembimbing.\n \t b. KRS semester berjalan\n \t c. Bukti telah mengikuti kegiatan seminar proposal sebanyak 20 kali seminar\n \t d. Nomor whatsapp yang aktif\n \t e. Lembar pernyataan orisinalitas\n 2. Operator Akademik - Bagian Skripsi merekap daftar pengajuan seminar proposal untuk diserahkan ke Komisi Bimbingan\n 3. Komisi Bimbingan melakukan plotting dosen penguji 1 dan 2 untuk masing-masing peserta seminar proposal.\n 4. Komisi Bimbingan menyerahkan hasil plotting kepada Operator Akademik - Bagian Skripsi\n 5. Operator Akademik - Bagian Skripsi menyusun jadwal seminar proposal\n 6. Operator Akademik - Bagian Skripsi membuat surat tugas seminar proposal kemudian di-scan.\n 7. Operator Akademik - Bagian Skripsi menyerahkan scan surat tugas seminar proposal dan soft file formulir penilaian seminar proposal kepada mahasiswa melalui whatsapp.\n 8. Mahasiswa menyampaikan surat tugas, proposal skripsi, dan formulir penilaian seminar proposal ke masing-masing dosen penguji dan pembimbing melalui whatsapp / email maksimal H-2 sebelum pelaksanaan seminar proposal.\n 9. Operator Akademik - Bagian Skripsi mengirimkan jadwal pelaksanaan seminar proposal kepada para koordinator pelaksana seminar proposal masing-masing program studi (himpunan mahasiswa prodi).\n 10.Pelaksana seminar proposal masing-masing program studi menyiapkan ruangan seminar proposal dan menyelenggarakan seminar proposal dengan menyiapkan moderator untuk masing-masing ruangan.\n 11. Setelah seminar proposal selesai, dosen pembahas mengisi penilaian kelayakan proposal dan dikirimkan ke Operator Akademik - Bagian Skripsi.\n 12.Operator Akademik - Bagian Skripsi mengirimkan hasil penilaian kelayakan proposal kepada mahasiswa.\n 13.Mahasiswa melakukan perbaikan terhadap proposal skripsi berdasarkan catatan perbaikan yang ada pada hasil penilaian kelayakan proposal.\n \n Prosedur Alternatif:\n 1. Apabila salah satu dosen pembimbing berhalangan melaksanakan seminar proposal:\n Pihak yang berhalangan melaporkan ke Operator Akademik - Bagian Skripsi lengkap beserta alasan yang menyebabkan berhalangan melaksanakan seminar proposal. Seminar proposal tetap dilanjutkan.\n 2. Apabila kedua dosen pembimbing berhalangan melaksanakan seminar proposal:\n Pihak yang berhalangan melaporkan ke Operator Akademik - Bagian Skripsi lengkap beserta alasan yang menyebabkan berhalangan melaksanakan seminar proposal. Seminar proposal akan ditunda dan dijadwalkan ulang oleh Operator Akademik - Bagian Skripsi.\n 3. Apabila salah satu atau kedua dosen penguji mengkonfirmasi berhalangan melaksanakan Seminar Proposal maksimal H-2:\n Pihak yang berhalangan melaporkan ke Operator Akademik - Bagian Skripsi lengkap beserta alasan yang menyebabkan berhalangan melaksanakan seminar proposal. Operator Akademik - Bagian Skripsi akan melakukan plotting ulang dosen penguji.\n 4. Apabila salah satu atau kedua dosen penguji mengkonfirmasi berhalangan melaksanakan Seminar Proposal pada H-1:\n Pihak yang berhalangan melaporkan ke Operator Akademik - Bagian Skripsi lengkap beserta alasan yang menyebabkan berhalangan melaksanakan seminar proposal. Seminar proposal akan ditunda dan dijadwalkan ulang oleh Operator Akademik - Bagian Skripsi. "],
         "context_set":""
     },
     {
         "tag":"Prosedur Operasional Standar Ujian Skripsi",
         "patterns":["prosedur ujian skripsi"],
-        "responses":["Prosedur Normal:\\n 1. Mahasiswa mendaftar ke Operator Akademik - Bagian Skripsi dengan melampirkan:\\n  \t a. Skripsi yang telah disetujui disertai bukti acc kedua dosen pembimbing.\\n  \t b. KRS semester berjalan\\n  \t c. Transkrip mahasiswa\\n  \t d. Nomor whatsapp yang aktif\\n  \t e. Lembar pernyataan orisinalitas\\n  2. Operator Akademik - Bagian Skripsi merekap daftar pengajuan ujian skripsi untuk diserahkan ke Komisi Bimbingan.\\n  3. Komisi Bimbingan menyetujui pengajuan ujian skripsi dan dikembalikan ke Operator Akademik - Bagian Skripsi.\\n  4. Operator Akademik - Bagian Skripsi menyusun jadwal ujian skripsi\\n  5. Operator Akademik - Bagian Skripsi menyiapkan dokumen-dokumen\\n  diantaranya: (1) surat tugas ujian skripsi; (2) lembar penilaian ujian skripsi; (3) hasil penilaian kelayakan proposal.\\n  6. Operator Akademik - Bagian Skripsi menyerahkan dokumen-dokumen seperti pada butir (5) kepada mahasiswa.\\n  7. Mahasiswa menyampaikan dokumen-dokumen seperti pada butir (5) ditambah dokumen skripsi ke masing-masing dosen penguji dan pembimbing maksimal H-2 sebelum pelaksanaan ujian skripsi.\\n  8. Apabila ujian dilaksanakan secara daring, maka mahasiswa meminta link zoom untuk ujian kepada salah satu dosen pembimbing dan diserahkan kepada semua dosen pembimbing dan dosen penguji maksimal H-1 ujian skripsi. Apabila ujian dilaksanakan secara luring, maka bagian umum dan perlengkapan mempersiapkan ruang sidang untuk pelaksanaan ujian skripsi sesuai dengan surat tugas ujian skripsi.\\n  9. Ujian skripsi dilaksanakan.\\n  10.Pada akhir ujian, seluruh lembar penilaian dikumpulkan ke sekretaris penguji (Dosen Penguji 2) untuk dikompilasi. Saat proses kompilasi, Mahasiswa meninggalkan ruang ujian sejenak.\\n  11. Setelah dikompilasi, mahasiswa kembali memasuki ruang ujian dan hasil diumumkan oleh ketua penguji (Dosen Penguji 1).\\n  12.Mahasiswa dinyatakan lulus ujian skripsi apabila nilai akhir ujian skripsi diantara 60 (nilai huruf C) hingga 100 (nilai huruf A), jika nilai ujian skripsi kurang dari 60 maka mahasiswa wajib melakukan ujian ulang paling cepat 2 minggu setelah ujian skripsi pertama.\\n  13.Jika mahasiswa merasa nilai yang didapatkan kurang memuaskan maka mahasiswa memiliki kesempatan untuk melakukan ujian ulang sebanyak 2 kali dengan syarat mendapatkan persetujuan dari kedua dosen pembimbing. Apabila perbaikan nilai dilakukan ujian ulang sebanyak 2 kali maka nilai yang digunakan adalah nilai terbaik. Setelah ujian dan dinyatakan lulus, mahasiswa menyelesaikan revisi dari dosen penguji maksimal 2 bulan setelah pelaksanaan ujian.\\n \\n Prosedur Alternatif:\\n  1. Apabila salah satu atau kedua dosen penguji / dosen pembimbing berhalangan hadir di waktu ujian yang sudah ditentukan: Pihak yang berhalangan melapor kepada Operator Akademik - Bagian Skripsi terkait penundaan, kemudian dijadwalkan ulang pelaksanaan ujian skripsi.\\n  2. Apabila hingga 2 bulan setelah ujian mahasiswa belum menyelesaikan revisi:\\n  Mahasiswa harus melakukan ujian skripsi ulang.\\n  3. Apabila ujian ulang dikarenakan tidak lulus (nilai <60) dan pada ujian ulang kedua mahasiswa masih mendapatkan nilai <60: Mahasiswa dinyatakan lulus dengan nilai 60 atau C.\\n "],
+        "responses":["Prosedur Normal:\\n 1. Mahasiswa mendaftar ke Operator Akademik - Bagian Skripsi dengan melampirkan:\n  \t a. Skripsi yang telah disetujui disertai bukti acc kedua dosen pembimbing.\n  \t b. KRS semester berjalan\n  \t c. Transkrip mahasiswa\n  \t d. Nomor whatsapp yang aktif\n  \t e. Lembar pernyataan orisinalitas\n  2. Operator Akademik - Bagian Skripsi merekap daftar pengajuan ujian skripsi untuk diserahkan ke Komisi Bimbingan.\n  3. Komisi Bimbingan menyetujui pengajuan ujian skripsi dan dikembalikan ke Operator Akademik - Bagian Skripsi.\n  4. Operator Akademik - Bagian Skripsi menyusun jadwal ujian skripsi\n  5. Operator Akademik - Bagian Skripsi menyiapkan dokumen-dokumen\n  diantaranya: (1) surat tugas ujian skripsi; (2) lembar penilaian ujian skripsi; (3) hasil penilaian kelayakan proposal.\n  6. Operator Akademik - Bagian Skripsi menyerahkan dokumen-dokumen seperti pada butir (5) kepada mahasiswa.\n  7. Mahasiswa menyampaikan dokumen-dokumen seperti pada butir (5) ditambah dokumen skripsi ke masing-masing dosen penguji dan pembimbing maksimal H-2 sebelum pelaksanaan ujian skripsi.\n  8. Apabila ujian dilaksanakan secara daring, maka mahasiswa meminta link zoom untuk ujian kepada salah satu dosen pembimbing dan diserahkan kepada semua dosen pembimbing dan dosen penguji maksimal H-1 ujian skripsi. Apabila ujian dilaksanakan secara luring, maka bagian umum dan perlengkapan mempersiapkan ruang sidang untuk pelaksanaan ujian skripsi sesuai dengan surat tugas ujian skripsi.\n  9. Ujian skripsi dilaksanakan.\n  10.Pada akhir ujian, seluruh lembar penilaian dikumpulkan ke sekretaris penguji (Dosen Penguji 2) untuk dikompilasi. Saat proses kompilasi, Mahasiswa meninggalkan ruang ujian sejenak.\n  11. Setelah dikompilasi, mahasiswa kembali memasuki ruang ujian dan hasil diumumkan oleh ketua penguji (Dosen Penguji 1).\n  12.Mahasiswa dinyatakan lulus ujian skripsi apabila nilai akhir ujian skripsi diantara 60 (nilai huruf C) hingga 100 (nilai huruf A), jika nilai ujian skripsi kurang dari 60 maka mahasiswa wajib melakukan ujian ulang paling cepat 2 minggu setelah ujian skripsi pertama.\n  13.Jika mahasiswa merasa nilai yang didapatkan kurang memuaskan maka mahasiswa memiliki kesempatan untuk melakukan ujian ulang sebanyak 2 kali dengan syarat mendapatkan persetujuan dari kedua dosen pembimbing. Apabila perbaikan nilai dilakukan ujian ulang sebanyak 2 kali maka nilai yang digunakan adalah nilai terbaik. Setelah ujian dan dinyatakan lulus, mahasiswa menyelesaikan revisi dari dosen penguji maksimal 2 bulan setelah pelaksanaan ujian.\n \n Prosedur Alternatif:\n  1. Apabila salah satu atau kedua dosen penguji / dosen pembimbing berhalangan hadir di waktu ujian yang sudah ditentukan: Pihak yang berhalangan melapor kepada Operator Akademik - Bagian Skripsi terkait penundaan, kemudian dijadwalkan ulang pelaksanaan ujian skripsi.\n  2. Apabila hingga 2 bulan setelah ujian mahasiswa belum menyelesaikan revisi:\n  Mahasiswa harus melakukan ujian skripsi ulang.\\n  3. Apabila ujian ulang dikarenakan tidak lulus (nilai <60) dan pada ujian ulang kedua mahasiswa masih mendapatkan nilai <60: Mahasiswa dinyatakan lulus dengan nilai 60 atau C. "],
         "context_set":""
     },
     {
         "tag": "Tio Dharmawan",
         "patterns":["tio", "dharmawan"],
-        "responses":["1. Data mining, \\2. text mining, \\3. Image, Video & Sound processing, \\4. Computer vison"],
+        "responses":["1. Data mining, \n2. text mining, \n3. Image, Video & Sound processing, \n4. Computer vison"],
         "context_set":"pengampu bidang"
     },
     {
         "tag": "Windi Eka Yulia Retnani",
         "patterns":["windi", "eka", "yulia", "retnani"],
-        "responses":["1. software requirement, \\2. software design \\3. software quality \\4. business process management" ],
+        "responses":["1. software requirement, \n2. software design \n3. software quality \n4. business process management" ],
         "context_set":"pengampu bidang"
     },
     {
         "tag": "Antonius Cahya Prihandoko",
         "patterns":["anton", "antonius", "cahya", "prihandoko"],
-        "responses":["1. coding theory, \\2. teori bahasa dan automata \\3. information security" ],
+        "responses":["1. coding theory, \n2. teori bahasa dan automata \n3. information security" ],
         "context_set":"pengampu bidang"
     },
     {
         "tag": "Yudha Alif Auliya",
         "patterns":["yudha", "alif", "auliya"],
-        "responses":["1. machine learning, \\2. deep learning \\3. network management \\4. IT infrastructure"],
+        "responses":["1. machine learning, \n2. deep learning \n3. network management \n4. IT infrastructure"],
         "context_set":"pengampu bidang"
     },
     {
         "tag":"Priza Pandunata",
         "patterns":["priza", "pandunata"],
-        "responses":["1. data mining, \\2. text mining \\3. machine learning \\4. game"],
+        "responses":["1. data mining, \n2. text mining \n3. machine learning \n4. game"],
         "context_set" : "pengampu bidang"
     },
     {
         "tag":"Fahrobby Adnan",
         "patterns":["robi", "roby", "fahroby", "adnan"],
-        "responses":["1. information system adoption, \\2. infomation system evaluation \\3. user interface \\4. user experience"],
+        "responses":["1. information system adoption, \n2. infomation system evaluation \n3. user interface \n4. user experience"],
         "context_set":"pengampu bidang"
     },
     {
         "tag":"Achmad Maududie",
         "patterns":["achmad", "maududi", "maududie"],
-        "responses":["1. data mining, \\2. text mining \\3. data visualization \\4. network embedded system"],
+        "responses":["1. data mining, \n2. text mining \n3. data visualization \n4. network embedded system"],
         "context_set":"pengampu bidang"
     },
     {
         "tag": "Beny Prasetyo",
         "patterns":["beni", "beny", "prasetyo"],
-        "responses":["1. software requirement, \\2. software quality \\3. information system adoption, \\4. infomation system evaluation\\5. IT risk management"],
+        "responses":["1. software requirement, \n2. software quality \n3. information system adoption, \n4. infomation system evaluation\n5. IT risk management"],
         "context_set":"pengampu bidang"
     },
     {
         "tag":"Nelly Oktavia Adiwijaya",
         "patterns":["neli", "nelly", "oktavia", "adiwijaya"],
-        "responses":["1. data mining, \\2. business intelligence \\3. machine learning \\4. game\\5. deep learning"],
+        "responses":["1. data mining, \n2. business intelligence \n3. machine learning \n4. game\n5. deep learning"],
         "context_set":"pengampu bidang"
     },
     {
         "tag":"Diksy Media Firmansyah",
         "patterns":["diksi", "diksy", "media", "firmansyah"],
-        "responses":["1. network embedded system, \\2. information security \\3. IT infrastructure\\4. cloud computing\\5. network security"],
+        "responses":["1. network embedded system, \n2. information security \n3. IT infrastructure\n4. cloud computing\n5. network security"],
         "context_set":"pengampu bidang"
     },
     {
         "tag" :"Oktalia Juwita",
         "patterns":["okta", "oktalia", "juwita"],
-        "responses":["1. information system/technology strategy \\2. information system adoption, \\3. infomation system evaluation\\4. user interface\\5. user experience"],
+        "responses":["1. information system/technology strategy \n2. information system adoption, \n3. infomation system evaluation\n4. user interface\n5. user experience"],
         "context_set":"pengampu bidang"
     },
     {
         "tag":"Saiful Bukhori",
         "patterns":["prof", "prof sai", "prof saiful", "bukhori"],
-        "responses":["1. business inteligence\\2. natural language proccessing\\3. machine learning\\4. deep learning\\5. game"],
+        "responses":["1. business inteligence\n2. natural language proccessing\n3. machine learning\n4. deep learning\n5. game"],
         "context_set":"pengampu bidang"
     },
     {
         "tag":"Gama Wisnu Fajarianto",
         "patterns":["gama", "wisnu", "fajarianto"],
-        "responses":["1. text minning, \\2. machine learning \\3. deep learning"],
+        "responses":["1. text mining, \n2. machine learning \n3. deep learning"],
         "context_set":"pengampu bidang"
     },
     {
         "tag":"Fajrin Nurman Arifin",
         "patterns":["fajrin", "nurman", "arifin"],
-        "responses":["1. data minning\\2. data visualization\\3. information system/technology strategy\\4. information system/technology audit\\5. information system evaluation"],
+        "responses":["1. data mining\n2. data visualization\n3. information system/technology strategy\n4. information system/technology audit\n5. information system evaluation"],
         "context_set":"pengampu bidang"
     },
     {
         "tag":"Diah Ayu Retnani w",
         "patterns":["diah", "ayu", "retnani"],
-        "responses":["1. business process manageement\\2. network management\\3. IT infrastructure\\4. deep learning\\5. game"],
+        "responses":["1. business process manageement\n2. network management\n3. IT infrastructure\n4. deep learning\n5. game"],
         "context_set":"pengampu bidang"
     },
     {
         "tag":"Dwiretno Istiyadi Swasono",
         "patterns":["dwiretno", "istiyadi", "istiadi", "swasono"],
-        "responses":["1. machine learning, \\2. deep learning \\3. standalone embedded system \\4. network embedded system"],
+        "responses":["1. machine learning, \n2. deep learning \n3. standalone embedded system \n4. network embedded system"],
         "context_set":"pengampu bidang"
     },
     {
         "tag":"Nova El Maidah",
         "patterns":["nova", "el", "maidah"],
-        "responses":["1. machine learning, \\2. deep learning \\3. standalone embedded system"],
+        "responses":["1. machine learning, \n2. deep learning \n3. standalone embedded system"],
         "context_set":"pengampu bidang"
     },
     {
         "tag":"Yanuar Nurdiansyah",
         "patterns":["yanuar", "nurdiansyah"],
-        "responses":["1. natural language processing\\2. machine learning\\3. information security\\4. network security\\5. IT infrastructure"],
+        "responses":["1. natural language processing\n2. machine learning\n3. information security\n4. network security\n5. IT infrastructure"],
         "context_set":"pengampu bidang"
     },
     {
         "tag":"Tri Agustina Nugrahani",
         "patterns":["tri", "agustin", "agustina", "nugrahani"],
-        "responses":["1. software requirement, \\2. software design \\3. enterprise management system"],
+        "responses":["1. software requirement, \n2. software design \n3. enterprise management system"],
         "context_set":"pengampu bidang"
     },
     {
         "tag":"Muhammad Ariful Furqon",
         "patterns":["ariful", "furqon"],
-        "responses":["1. data mining, \\2. text mining \\3. natural language proccessing \\4. machine learning\\5. game"]
+        "responses":["1. data mining, \n2. text mining \n3. natural language proccessing \n4. machine learning\n5. game"]
     },
     {
         "tag":"Anang Andrianto",
         "patterns":["anang", "andrianto"],
-        "responses":["1. software requirement, \\2. software design \\3. Augmented/virtual reality\\4. user interface\\5. user experience"],
+        "responses":["1. software requirement, \n2. software design \n3. Augmented/virtual reality\n4. user interface\n5. user experience"],
         "context_set":"pengampu bidang"
     },
     {
         "tag":"Muhamad Arief Hidayat",
         "patterns":["arif", "arief", "hidayat"],
-        "responses":["1. data minning\\2. data visualization\\3. business intelligence\\4. image, video & sound proccessing\\5. computer vision"],
+        "responses":["1. data mining\n2. data visualization\n3. business intelligence\n4. image, video & sound proccessing\n5. computer vision"],
         "context_set":"pengampu bidang"
     },
     {
         "tag":"Karina Nine Amalia",
         "patterns":["karina", "nine", "amalia"],
-        "responses":["1. Business Process Management\\2. Data and Knowledge Management\\3. Enterprise Management System"],
+        "responses":["1. Business Process Management\n2. Data and Knowledge Management\n3. Enterprise Management System"],
         "context_set":"pengampu bidang"
 
     },
     {
         "tag":"Mohammad Zarkasi",
         "patterns":["zarkasi"],
-        "responses":["1. network embedded system,\\2. network securty\\3. network management\\4. high performance computing\\5. cloud computing"],
+        "responses":["1. network embedded system,\n2. network securty\n3. network management\n4. high performance computing\n5. cloud computing"],
         "context_set":"pengampu bidang"
 
     },        {
         "tag":"Slamin",
         "patterns":["prof slamin", "slamin"],
-        "responses":["1. machine learning\\2. graph theory"],
+        "responses":["1. machine learning\n2. graph theory"],
         "context_set":"pengampu bidang"
 
     },        {
         "tag":"Gayatri Dwi Santika",
-        "patterns":["gayatri", "dwi", "santika"],
-        "responses":[""],
+        "patterns":["gayatri", "dwi", "santika", "g"],
+        "responses":["1. data mining, \n2. business intelligence \n3. machine learning \n4. deep learning"],
         "context_set":"pengampu bidang"
 
     },        {
         "tag":"Qurrota Ayuni Ar Ruhimat",
-        "patterns":[],
+        "patterns":["qurrota", "qurota", "ayuni", "ar", "ruhimat"],
         "responses":[],
         "context_set":"pengampu bidang"
 
