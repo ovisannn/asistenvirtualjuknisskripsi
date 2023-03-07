@@ -7,7 +7,7 @@
 
 # token : 5940972519:AAEG66kzqC5LA0-t4AlFAMJJBVVCtKvCDPo
 # https://api.telegram.org/bot<Your Bot Token>/setWebhook?url=<URL that you got from Ngrok>
-# https://api.telegram.org/bot5940972519:AAEG66kzqC5LA0-t4AlFAMJJBVVCtKvCDPo/setWebhook?url=eedf-2001-448a-5122-8627-35a5-6c8f-8827-ec7.ap.ngrok.io
+# https://api.telegram.org/bot5940972519:AAEG66kzqC5LA0-t4AlFAMJJBVVCtKvCDPo/setWebhook?url=https://1959-2001-448a-5122-8627-35a5-6c8f-8827-ec7.ap.ngrok.io
 
 from flask import Flask
 from flask import request
@@ -38,6 +38,17 @@ def tel_send_message(chat_id, text):
     r = requests.post(url,json=payload)
     return r
  
+def tel_send_image(chat_id):
+    url = f'https://api.telegram.org/bot{TOKEN}/sendPhoto'
+    payload = {
+        'chat_id': chat_id,
+        'photo': "asset/pemetaan.png",
+        'caption': "This is a sample image"
+    }
+ 
+    r = requests.post(url, json=payload)
+    return r
+ 
 @app.route('/', methods=['GET', 'POST'])
 def index():
     if request.method == 'POST':
@@ -54,7 +65,10 @@ def index():
         else:
             ints = chatbot.predictClasses(txt)
             res = chatbot.getResponse(ints, intents)
-            tel_send_message(chat_id, res)
+            if res =='#pemetaan bidang pict':
+                tel_send_image(chat_id)
+            else:
+                tel_send_message(chat_id, res)
        
         return Response('ok', status=200)
     else:
