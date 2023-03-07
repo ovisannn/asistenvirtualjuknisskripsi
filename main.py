@@ -7,7 +7,7 @@
 
 # token : 5940972519:AAEG66kzqC5LA0-t4AlFAMJJBVVCtKvCDPo
 # https://api.telegram.org/bot<Your Bot Token>/setWebhook?url=<URL that you got from Ngrok>
-# https://api.telegram.org/bot5940972519:AAEG66kzqC5LA0-t4AlFAMJJBVVCtKvCDPo/setWebhook?url=e6e7-118-99-83-50.ap.ngrok.io
+# https://api.telegram.org/bot5940972519:AAEG66kzqC5LA0-t4AlFAMJJBVVCtKvCDPo/setWebhook?url=eedf-2001-448a-5122-8627-35a5-6c8f-8827-ec7.ap.ngrok.io
 
 from flask import Flask
 from flask import request
@@ -49,14 +49,16 @@ def index():
         # ints = predictClasses(message)
         # res = getResponse(ints, intents)
         # print('BOT SAYS : ',  res)
-        
-        ints = chatbot.predictClasses(txt)
-        res = chatbot.getResponse(ints, intents)
-        tel_send_message(chat_id, res)
+        if txt == '/start':
+            tel_send_message(chat_id, 'halo, senang bertemu denganmu. kamu boleh bertanya mengenai petunjuk teknis skripsi Fakultas Ilmu Komputer Universitas Jember')
+        else:
+            ints = chatbot.predictClasses(txt)
+            res = chatbot.getResponse(ints, intents)
+            tel_send_message(chat_id, res)
        
         return Response('ok', status=200)
     else:
-        return "<h1>Welcome!</h1>"
+        return "juknis skripsi fasilkom UNEJ 2022 API"
  
 if __name__ == '__main__':
    app.run(debug=True)

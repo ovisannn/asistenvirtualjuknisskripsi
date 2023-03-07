@@ -93,7 +93,7 @@
     {
         "tag":"Rekayasa Perangkat Lunak",
         "patterns":["rpl", "rekayasa perangkat lunak"],
-        "responses":["Bidang Rekayasa Perangkat Lunak (RPL) mencakup bidang yang mempelajari pengembangan, operasi serta pemeliharaan perangkat lunak, meliputi juga metode, bahasa dan alat bantu (teknologi) yang dapat digunakan dalam rekayasa perangkat lunak tersebut. Bidang ilmu yang dipelajari dan menjadi bidang skripsi RPL mengikuti bidang kajian yang berada dalam lingkup Software Engineering Body of Knowledge (SWEBOK), meliputi:\\1. Software requirement \\2. Software design\\3. Software construction\\4. Software testing\\5. Software maintenance\\6. Software quality\\7. Software configuration management\\8. Software engineering management\\9. Software engineering process\\10.Software engineering models and method\\11. Software engineering professional practice"],
+        "responses":["Bidang Rekayasa Perangkat Lunak (RPL) mencakup bidang yang mempelajari pengembangan, operasi serta pemeliharaan perangkat lunak, meliputi juga metode, bahasa dan alat bantu (teknologi) yang dapat digunakan dalam rekayasa perangkat lunak tersebut. Bidang ilmu yang dipelajari dan menjadi bidang skripsi RPL mengikuti bidang kajian yang berada dalam lingkup Software Engineering Body of Knowledge (SWEBOK), meliputi:\n1. Software requirement \n2. Software design\n3. Software construction\n4. Software testing\n5. Software maintenance\n6. Software quality\n7. Software configuration management\n8. Software engineering management\n9. Software engineering process\n10.Software engineering models and method\n11. Software engineering professional practice"],
         "context_set":""
     },
     {
