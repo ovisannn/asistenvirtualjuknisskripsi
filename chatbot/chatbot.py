@@ -55,9 +55,9 @@ def cleanUpSentence(sentence):
     # print(sentence)
     print(sentenceWrods)
     sentenceWrods = [lemmatizer.lemmatize(word) for word in sentenceWrods] #en
-    # print(type(sentenceWrods))
-    # sentenceWrods = [stemmer.stem(word) for word in sentenceWrods] #indo
-    # print(sentenceWrods)
+    print(sentenceWrods)
+    sentenceWrods = [stemmer.stem(word) for word in sentenceWrods] #indo
+    print(sentenceWrods)
     return sentenceWrods
 
 
@@ -105,9 +105,9 @@ def getResponse(intentList, intentJson):
 
 
 
-# while True:
-#     print('the bot is running...')
-#     message = input('INPUT : ')
-#     ints = predictClasses(message)
-#     res = getResponse(ints, intents)
-#     print('BOT SAYS : ',  res)
+while True:
+    print('the bot is running...')
+    message = input('INPUT : ')
+    ints = predictClasses(message)
+    res = getResponse(ints, intents)
+    print('BOT SAYS : ',  res)

@@ -38,12 +38,12 @@ def tel_send_message(chat_id, text):
     r = requests.post(url,json=payload)
     return r
  
-def tel_send_image(chat_id):
+def tel_send_image(chat_id, imgUrl, caption):
     url = f'https://api.telegram.org/bot{TOKEN}/sendPhoto'
     payload = {
         'chat_id': chat_id,
-        'photo': "asset/pemetaan.png",
-        'caption': "This is a sample image"
+        'photo': imgUrl,
+        'caption': caption
     }
  
     r = requests.post(url, json=payload)
@@ -66,7 +66,9 @@ def index():
             ints = chatbot.predictClasses(txt)
             res = chatbot.getResponse(ints, intents)
             if res =='#pemetaan bidang pict':
-                tel_send_image(chat_id)
+                imgUrl = 'https://raw.githubusercontent.com/ovisannn/assetJuknis/main/pemetaan.png'
+                caption ='pemetaan bidang skripsi'
+                tel_send_image(chat_id, imgUrl, caption)
             else:
                 tel_send_message(chat_id, res)
        

@@ -8,7 +8,7 @@
     },
     {
         "tag": "sapa",
-        "patterns": ["Hi", "hallo", "apa kabar", "selamat pagi", "selamat sore", "selamat siang"],
+        "patterns": ["hi", "hallo", "apa kabar", "selamat pagi", "selamat sore", "selamat siang"],
         "responses": ["Hello!", "Hi", "Ada yang bisa saya bantu?", "senang bertemu denganmu!"],
         "context_set": ""
     },
@@ -26,19 +26,19 @@
     },
     {
         "tag":"klasifikasi tipe penelitian skripsi",
-        "patterns":["klasifikasi tipe penelitian skripsi"],
+        "patterns":["klasifikasi tipe penelitian skripsi", "klasifikasi", "tipe"],
         "responses":["Tipe penelitian diklasifikasikan berdasarkan luaran utama yang dihasilkan dari proses penelitian skripsi tersebut. Berdasarkan luaran utama tersebut, maka tipe penelitian skripsi terbagi menjadi 3, yaitu system engineering, design & construction dan descriptive & analytics"],
         "context_set":"klasifikasi penelitian"
     },
     {
         "tag":"pengambilan klasifikasi",
-        "patterns":["mengambil lebih dari satu klasifikasi", "mengambil lebih dua atau tiga klasifikasi"],
+        "patterns":["mengambil lebih dari satu klasifikasi", "mengambil lebih dua atau tiga klasifikasi", "ambil", "klasifikasi"],
         "responses":["Pada pelaksanaannya tetap perlu diingat bahwa sangat dimungkinkan pada sebuah penelitian untuk melibatkan satu atau lebih tipe penelitian berdasarkan diskusi komprehensif antara mahasiswa dan pembimbingnya sesuai dengan domain permasalahan penelitian yang dipilih. Meskipun demikian, tetap bisa ditentukan tipe penelitian yang dominan dari kombinasi beberapa tipe penelitian tersebut yang nanti akan menentukan tingkat kedalaman skripsi yang harus diperhatikan"],
         "context_set":"klasifikasi penelitian"
     },
     {
         "tag":"pengertian system engineering",
-        "patterns":["penelitian system engineering", "penelitian sistem engineering"],
+        "patterns":["penelitian system engineering", "penelitian sistem engineering", "system", "enginering", "engineering"],
         "responses":["Penelitian System Engineering adalah tipe penelitian skripsi yang menghasilkan luaran utama sebagai solusi terhadap permasalahan yang diangkat dalam penelitian. Penelitian tipe ini akan membuat sebuah produk utuh sebagai satu kesatuan sistem (perangkat lunak/perangkat keras/jaringan) dari sesuatu yang belum ada menjadi ada dengan menerapkan prinsip-prinsip rekayasa secara utuh, yang meliputi analisis, perancangan (desain), konstruksi dan pengujian."],
         "context_set":"system engineering"
     },
@@ -55,8 +55,8 @@
         "context_set":"system development"
     },
     {
-        "tag":"System Enchancement",
-        "patterns":["bahasan system sistem enchancement", "subtipe sistem system enchancement"],
+        "tag":"System Enhancement",
+        "patterns":["bahasan sistem enhancement", "subtipe system enhancement"],
         "responses":["Sebuah kegiatan penelitian implementatif untuk membuat sebuah produk/artefak utama utuh (perangkat lunak/perangkat keras/kerangka kerja/jaringan komputer/dokumen instruksional) yang dikembangkan dari sistem yang sudah ada dengan menerapkan prinsip-prinsip rekayasa secara utuh, yang meliputi analisis, perancangan, konstruksi dan pengujian. Produk/artefak utama yang dihasilkan harus memenuhi aspek kompatibilitas dengan sistem yang sudah ada sebelumnya."],
         "context_set":"system development"
     },
@@ -134,25 +134,19 @@
     },
     {
         "tag":"aspek kelayakan proposal skripsi",
-        "patterns":["aspek kelayakan proposal skripsi"],
-        "responses":["Aspek kelayakan proposal skripsi merupakan kriteria minimum yang harus dipenuhi setiap mahasiswa dalam pengajuan proposal skripsi dengan tujuan meningkatkan kualitas skripsi mahasiswa Fakultas Ilmu Komputer Universitas Jember. Dalam pelaksanaannya, aspek kelayakan ini ditinjau pada usulan skripsi dalam bentuk proposal yang dilakukan ketika pelaksanaan seminar proposal. Calon Dosen Pembimbing dapat diusulkan oleh mahasiswa dengan persetujuan Calon Pembimbing yang bersangkutan. Kedua Calon Pembimbing diharuskan memiliki bidang keahlian/bidang minat penelitian (research interests) yang menunjang dan sesuai dengan usulan skripsi dan memiliki kontribusi sesuai bidang keahlian."],
-        "context_set":""
-    },
-    {
-        "tag":"list kelayakan proposal skripsi",
-        "patterns":["list kelayakan proposal skripsi"],
-        "responses":["1. Kelayakan latar belakang\n 2. Kelayakan rumusan masalah dan tujuan\n 3. Kelayakan landasan kepustakaan\n 4. kelayakan metodologi penelitian\n 5. Kelayakan daftar referensi"],
+        "patterns":["aspek kelayakan proposal skripsi", "layak proposal"],
+        "responses":["Aspek kelayakan proposal skripsi merupakan kriteria minimum yang harus dipenuhi setiap mahasiswa dalam pengajuan proposal skripsi dengan tujuan meningkatkan kualitas skripsi mahasiswa Fakultas Ilmu Komputer Universitas Jember. Dalam pelaksanaannya, aspek kelayakan ini ditinjau pada usulan skripsi dalam bentuk proposal yang dilakukan ketika pelaksanaan seminar proposal. Calon Dosen Pembimbing dapat diusulkan oleh mahasiswa dengan persetujuan Calon Pembimbing yang bersangkutan. Kedua Calon Pembimbing diharuskan memiliki bidang keahlian/bidang minat penelitian (research interests) yang menunjang dan sesuai dengan usulan skripsi dan memiliki kontribusi sesuai bidang keahlian.\n 1. Kelayakan latar belakang\n 2. Kelayakan rumusan masalah dan tujuan\n 3. Kelayakan landasan kepustakaan\n 4. kelayakan metodologi penelitian\n 5. Kelayakan daftar referensi"],
         "context_set":""
     },
     {
         "tag": "Struktur Penulisan Proposal",
-        "patterns":["format penulisan proposal skripsi"],
+        "patterns":["format tulis proposal skripsi", "struktur proposal"],
         "responses":["1. Bagian awal, yang bersifat pendukung, terdiri atas:\n \t a. Halaman Judul\n \t \t i. Logo Universitas Jember,\n \t \t ii. Judul,\n \t \t iii. Jenis karya ilmiah (Proposal Skripsi),\n \t \t iv. nama dan identitas penulis,\n \t \t v. institusi,\n \t \t vi. dan tahun.\n \t b. Halaman Pernyataan Orisinalitas\n 2. Bagian utama proposal, terdiri atas:\n \t a. Latar Belakang\n \t b. Rumusan Masalah\n \t c. Tujuan Penelitian\n \t d. Manfaat Penelitian\n \t e. Batasan Masalah\n \t f. Tinjauan Pustaka\n \t \t i. Penelitian Terdahulu\n \t \t ii. Landasan Teori\n \t g. Metodologi Penelitian\n \t h. Luaran Penelitian\n \t i. Jadwal Penelitian\n 3. Bagian akhir proposal, terdiri atas:\n \t a. Daftar Pustaka\n \t b. Lampiran\n"],
         "context_set":"struktur penulisan"
     },
     {
         "tag": "Struktur penulisan skripsi",
-        "patterns":["format penulisan skripsi"],
+        "patterns":["format tulis skripsi", "struktur skripsi"],
         "responses":["1. Bagian awal, yang bersifat pendukung, terdiri atas:\n \t a. Halaman Sampul\n \t b. Halaman Judul\n \t c. Halaman Pengesahan (ditandatangani Penguji, Pembimbing dan Dekan)\n \t d. Halaman Pernyataan Orisinalitas\n \t e. Ringkasan\n \t f. Daftar Isi\n \t g. Daftar Tabel\n \t h. Daftar Gambar\n \t i. Daftar Lampiran\n 2. Bagian utama, yang menggambarkan substansi skripsi, terdiri atas:Bab 1:\n \t Bab 1: Pendahuluan\n \t Bab 2: Tinjauan Pustaka\n \t \t 2.1 Penelitian Terdahulu\n \t \t 2.2 Landasan Teori\n \t Bab 3: Metodologi Penelitian\n \t Bab 4 sampai n: Bab-bab tentang Hasil dan Pembahasan\n \t Bab (n + 1): Kesimpulan dan Saran\n 3. Bagian akhir, yang melengkapi skripsi, terdiri atas:\n \t a. Daftar Pustaka\n \t b. Lampiran\n "],
         "context_set":"struktur penulisan"
     },
@@ -164,19 +158,19 @@
     },
     {
         "tag": "menghindari plagiarisme",
-        "patterns":["cara menghindari plagiarisme"],
+        "patterns":["cara hindar plagiarisme"],
         "responses":["Untuk menghindari plagiarisme, hal-hal yang bisa dilakukan adalah:\n 1. Memahami ide dari teks yang akan dirujuk sehingga memudahkan parafrase\n 2. Melakukan parafrase dan sitasi dengan benar\n 3. Melakukan pengutipan langsung dan sitasi dengan benar\n 4. Menganalisis dan mengevaluasi keakuratan dan kredibilitas sumber\n 5. Melakukan konsultasi dengan Pembimbing penelitian atau peneliti yang lebih berpengalaman"],
         "context_set":""
     },
     {
         "tag":"mekanisme pemeriksaan orisinalitas",
-        "patterns":["mekanisme pemeriksaan orisinalitas"],
+        "patterns":["mekanisme periksa orisinalitas"],
         "responses":["Mekanisme pemeriksaan orisinalitas skripsi yaitu:\n  1. Mahasiswa melakukan tes plagiasi terhadap dokumen skripsi menggunakan Turnitin melalui akun Dosen Pembimbing I dan atau Dosen Pembimbing 2.\n  2. Pengecekan similarity dilakukan oleh Dosen Pembimbing 1 dan atau Dosen Pembimbing 2 dengan ketentuan:\n a. Batas similarity maksimal dokumen skripsi adalah 30% (bagian utama skripsi) dan batas similarity maksimal per source adalah 10%.\n b. Apabila tingkat kemiripan melebihi batas toleransi similarity (poin a) dan dianggap tidak melanggar plagiarisme, maka dibutuhkan expert judgement dari Dosen Pembimbing.\n 3. Hasil tes plagiasi akan dilampirkan saat mahasiswa mendaftar Seminar Proposal dan Ujian Skripsi "],
         "context_set":""
     },
     {
         "tag":"Prosedur Operasional Standar Pengajuan Judul dan Dosen Pembimbing Skripsi",
-        "patterns":["prosedur pengajuan judul dan dosen pembimbing"],
+        "patterns":["prosedur aju judul dan dosen pembimbing"],
         "responses":["Prosedur Normal: \t 1. Mahasiswa yang telah memenuhi persyaratan menempuh skripsi (telah menempuh minimal 120 SKS, PP ≥ 90% dan minimal IPK 2,00) dapat memilih salah satu topik penelitian yang diminati.\n \t 2. Mahasiswa melakukan konsultasi/diskusi terkait rencana penelitian kepada calon dosen pembimbing yang diinginkan sesuai dengan daftar peminatan bidang penelitian dosen. Bidang penelitian masing-masing dosen telah tertulis pada profil dosen.\n \t 3. Calon dosen pembimbing akan melakukan proses komunikasi / wawancara / mekanisme lain yang bertujuan untuk memastikan kesiapan mahasiswa dalam melakukan penelitian.\n \t 4. Apabila calon dosen pembimbing telah menyetujui rencana penelitian mahasiswa, calon dosen pembimbing menandatangani formulir persetujuan dosen pembimbing dan mengisi kontribusi (substansi) sesuai dengan bidang penelitian calon dosen pembimbing terhadap rencana skripsi yang akan dikerjakan oleh mahasiswa.\n \t 5. Calon dosen pembimbing kemudian merekomendasikan calon dosen pembimbing lainnya. Sebagai catatan, kedua calon dosen pembimbing harus memiliki peran dan kontribusi (substansi) terhadap topik penelitian yang diambil oleh mahasiswa (sesuai yang tertera dalam formulir persetujuan calon dosen pembimbing).\n \t 6. Mahasiswa melakukan komunikasi dan berkonsultasi dengan rekomendasi calon dosen pembimbing lainnya.\n \t 7. Apabila rekomendasi calon dosen pembimbing menyetujui, maka dosen tersebut menandatangani formulir persetujuan dosen pembimbing yang sebelumnya telah ditandatangani oleh calon dosen pembimbing lainnya dan mengisi kontribusi (substansi) dosen pembimbing terhadap rencana skripsi yang akan dikerjakan oleh mahasiswa.\n \t 8. Mahasiswa mengunggah draft proposal di SISTER\n \t 9. Mahasiswa melakukan pendaftaran ke Operator Akademik - Bagian Skripsi sebelum deadline masa pengajuan plotting dosen pembimbing dengan membawa:\n \t \t a. Draft Proposal\n \t \t b. Formulir Persetujuan Calon Dosen Pembimbing Skripsi yang telah ditandatangani oleh kedua calon dosen pembimbing\n \t \t c. Cetak KRS semester berjalan\n \t 10.Operator Akademik - Bagian Skripsi akan melakukan rekap pengajuan dan menyerahkan ke Komisi Bimbingan untuk selanjutnya dilakukan penetapan (plotting) calon dosen pembimbing\n \t 11. Komisi Bimbingan bersama Kaprodi menetapkan dosen pembimbing.\n \t 12.Komisi Bimbingan memasukkan nama-nama dosen pembimbing ke SISTER\n \t 13.Operator Akademik - Bagian Skripsi mencetak surat tugas dosen pembimbing dari SISTER.\n \t 14.Operator Akademik - Bagian Skripsi menyerahkan surat tugas dosen pembimbing kepada mahasiswa.\n \t 15.Mahasiswa menyerahkan surat tugas dosen pembimbing kepada dosen pembimbing masing-masing.\n\n Prosedur Alternatif:\n \t 1. Komisi Bimbingan bersama Kaprodi menetapkan dosen pembimbing berdasarkan informasi yang ada pada data profil dosen antara lain: (1) bidang minat penelitian; (2) riwayat mengajar; (3) riwayat penelitian. Apabila usulan mahasiswa tidak disetujui Komisi Bimbingan, maka mahasiswa disarankan untuk berkonsultasi ke Koordinator Program Studi.\n \t 2. Koordinator Program Studi merekomendasikan kembali usulan calon dosen pembimbing skripsi berdasarkan kesesuaian dengan data profil dosen.\n \t 3. Mahasiswa melakukan komunikasi dan berkonsultasi dengan calon dosen pembimbing yang direkomendasikan oleh Koordinator Program Studi.\n \t 4. Mahasiswa melaksanakan prosedur normal seperti pada poin nomor 7 dan seterusnya."],
         "context_set":""
     },
@@ -351,13 +345,13 @@
     },        {
         "tag":"Qurrota Ayuni Ar Ruhimat",
         "patterns":["qurrota", "qurota", "ayuni", "ar", "ruhimat"],
-        "responses":[],
+        "responses":["1. data visualization, \n2. graph theory"],
         "context_set":"pengampu bidang"
 
     },        {
         "tag":"Januar Adi Putra",
-        "patterns":[],
-        "responses":[],
+        "patterns":["januar", "adi", "putra"],
+        "responses":["1. Business inteligence\n2. image, video, & sound processing\n3. computer vision"],
         "context_set":"pengampu bidang"
 
     }
