@@ -90,8 +90,11 @@ def predictClasses(sentence):
     return returnList
 
 def getResponse(intentList, intentJson):
-    print(intentList[0]['probability'])
-    ERROR_THRESHOLD = 0.80
+    # print(intentList[0]['probability'])
+    ERROR_THRESHOLD = 0.25
+    print(intentList)
+    if not intentList:
+        return "Mohon maaf masukan tidak dikenali"
     if float(intentList[0]['probability'])< ERROR_THRESHOLD:
         return "Mohon maaf masukan tidak dikenali"
     tag = intentList[0]['intent']
@@ -105,9 +108,9 @@ def getResponse(intentList, intentJson):
 
 
 
-while True:
-    print('the bot is running...')
-    message = input('INPUT : ')
-    ints = predictClasses(message)
-    res = getResponse(ints, intents)
-    print('BOT SAYS : ',  res)
+# while True:
+#     print('the bot is running...')
+#     message = input('INPUT : ')
+#     ints = predictClasses(message)
+#     res = getResponse(ints, intents)
+#     print('BOT SAYS : ',  res)
