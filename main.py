@@ -7,7 +7,7 @@
 
 # token : 5940972519:AAEG66kzqC5LA0-t4AlFAMJJBVVCtKvCDPo
 # https://api.telegram.org/bot<Your Bot Token>/setWebhook?url=<URL that you got from Ngrok>
-# https://api.telegram.org/bot5940972519:AAEG66kzqC5LA0-t4AlFAMJJBVVCtKvCDPo/setWebhook?url=https://1959-2001-448a-5122-8627-35a5-6c8f-8827-ec7.ap.ngrok.io
+# https://api.telegram.org/bot5940972519:AAEG66kzqC5LA0-t4AlFAMJJBVVCtKvCDPo/setWebhook?url=https://ccd8-182-1-85-134.ap.ngrok.io
 
 from flask import Flask
 from flask import request
