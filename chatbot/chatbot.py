@@ -91,7 +91,7 @@ def predictClasses(sentence):
 
 def getResponse(intentList, intentJson):
     # print(intentList[0]['probability'])
-    ERROR_THRESHOLD = 0.25
+    ERROR_THRESHOLD = 0.95
     print(intentList)
     if not intentList:
         return "Mohon maaf masukan tidak dikenali"
