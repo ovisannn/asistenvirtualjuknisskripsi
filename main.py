@@ -56,7 +56,7 @@ def index():
        
         chat_id,txt = parse_message(msg)
         if txt == '/start':
-            tel_send_message(chat_id, 'halo, senang bertemu denganmu. kamu boleh bertanya mengenai petunjuk teknis skripsi Fakultas Ilmu Komputer Universitas Jember')
+            tel_send_message(chat_id, 'halo, senang bertemu denganmu. kamu boleh bertanya mengenai petunjuk teknis skripsi Fakultas Ilmu Komputer Universitas Jember.\n cangkupan pengetahuan bot adalah: \n 1. Skripsi\n2. proposal skripsi\n3. teknis penulisan\n4. teknis pelaksanaan\n5. orisinalitas\n6. plagiarisme\n7. dosen pengampu bidang')
         else:
             ints = chatbot.predictClasses(txt)
             res = chatbot.getResponse(ints, intents)
