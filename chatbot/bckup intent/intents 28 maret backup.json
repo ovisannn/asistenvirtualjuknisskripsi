@@ -164,7 +164,7 @@
     },
     {
         "tag":"mekanisme pemeriksaan orisinalitas",
-        "patterns":["mekanisme periksa orisinalitas", "cara laku pemeriksa orisinalitas"],
+        "patterns":["mekanisme periksa orisinalitas"],
         "responses":["Mekanisme pemeriksaan orisinalitas skripsi yaitu:\n  1. Mahasiswa melakukan tes plagiasi terhadap dokumen skripsi menggunakan Turnitin melalui akun Dosen Pembimbing I dan atau Dosen Pembimbing 2.\n  2. Pengecekan similarity dilakukan oleh Dosen Pembimbing 1 dan atau Dosen Pembimbing 2 dengan ketentuan:\n a. Batas similarity maksimal dokumen skripsi adalah 30% (bagian utama skripsi) dan batas similarity maksimal per source adalah 10%.\n b. Apabila tingkat kemiripan melebihi batas toleransi similarity (poin a) dan dianggap tidak melanggar plagiarisme, maka dibutuhkan expert judgement dari Dosen Pembimbing.\n 3. Hasil tes plagiasi akan dilampirkan saat mahasiswa mendaftar Seminar Proposal dan Ujian Skripsi "],
         "context_set":""
     },
@@ -360,46 +360,30 @@
         "responses":["1. network embedded system,\n2. network securty\n3. network management\n4. high performance computing\n5. cloud computing"],
         "context_set":"pengampu bidang"
 
-    },        
-    {
+    },        {
         "tag":"Slamin",
         "patterns":["prof slamin", "slamin"],
         "responses":["1. machine learning\n2. graph theory"],
         "context_set":"pengampu bidang"
 
-    },        
-    {
+    },        {
         "tag":"Gayatri Dwi Santika",
         "patterns":["gayatri", "dwi", "santika", "g"],
         "responses":["1. data mining, \n2. business intelligence \n3. machine learning \n4. deep learning"],
         "context_set":"pengampu bidang"
 
-    },        
-    {
+    },        {
         "tag":"Qurrota Ayuni Ar Ruhimat",
         "patterns":["qurrota", "qurota", "ayuni", "ar", "ruhimat"],
         "responses":["1. data visualization, \n2. graph theory"],
         "context_set":"pengampu bidang"
 
-    },        
-    {
+    },        {
         "tag":"Januar Adi Putra",
         "patterns":["januar", "adi", "putra"],
         "responses":["1. Business inteligence\n2. image, video, & sound processing\n3. computer vision"],
         "context_set":"pengampu bidang"
 
-    },
-    {
-        "tag":"dosen pembimbing utama",
-        "patterns":["dpu", "dosen bimbing utama"],
-        "responses":["Dosen Pembimbing Utama: \n Windi Eka Yulia Retnani S.Kom.,MT.\n Drs. Antonius Cahya Prihandoko, M.App.Sc., Ph.D.\n Fahrobby Adnan S.Kom., M.MSI.\n Achmad Maududie ST, M.Sc.\n Nelly Oktavia Adiwijaya S.Si.,MT.\n Oktalia Juwita S.Kom., M.MT\n Prof. Dr. Saiful Bukhori ST., M.Kom\n Diah Ayu Retnani Wulandari S.T.,M.Eng\n Yanuar Nurdiansyah, ST,.M.Cs.\n Anang Andrianto ST.,MT\n Prof. Drs. Slamin, M.Comp.Sc., Ph.D.\n Priza Pandunata S.Kom., M.Sc.\n Beny Prasetyo, S.Kom., M.Kom.\n Fajrin Nurman Arifin S.T., M.Eng.\n Dwiretno Istiyadi Swasono ST.,M.Kom.\n Nova El Maidah S.Si., M.Cs.\n Muhammad Ariful Furqon, S.Pd., M.Kom.\n Muhamad Arief Hidayat S.Kom,.M.Kom.\n Katarina Leba, S.Ag.,M.Th"],
-        "context_set":"dpu"
-    },
-    {
-        "tag":"dosen pembimbing pendamping",
-        "patterns":["dpp", "dosen bimbing damping"],
-        "responses":["Dosen Pembimbing Pendamping: \n Tio Dharmawan S.Kom., M.Kom\n Dwiretno Istiyadi Swasono ST.,M.Kom.\n Nova El Maidah S.Si., M.Cs.\n Muhammad Ariful Furqon, S.Pd., M.Kom.\n Muhamad Arief Hidayat S.Kom,.M.Kom.\n Katarina Leba, S.Ag.,M.Th\n Yudha Alif Auliya S.Kom, M.Kom\n Diksy Media Firmansyah S.Kom., M.Kom\n Gama Wisnu Fajarianto S.Kom., M.Kom.\n Tri Agustina Nugrahani, S.Kom., M.Kom.\n Karina Nine Amalia, S.Kom., M.Kom.\n Mohammad Zarkasi, S.Kom., M.Kom.\n Gayatri Dwi Santika S.SI., M.Kom\n Qurrota A”Yuni Ar Ruhimat S.Pd., M.Sc.\n Januar Adi Putra S.Kom., M.Kom"],
-        "context_set":"dpp"
     }
 ]
 }

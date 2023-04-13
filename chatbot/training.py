@@ -24,7 +24,7 @@ from keras.optimizers import SGD
 
 
 lemmatizer = WordNetLemmatizer()
-op = open('chatbot/intents.json')
+op = open('chatbot/intents.json', encoding="utf8")
 intents = json.load(op)
 # print(intents)
 factory = StemmerFactory()
