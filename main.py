@@ -7,7 +7,7 @@
 
 # token : 5940972519:AAEG66kzqC5LA0-t4AlFAMJJBVVCtKvCDPo
 # https://api.telegram.org/bot<Your Bot Token>/setWebhook?url=<URL that you got from Ngrok>
-# https://api.telegram.org/bot5940972519:AAEG66kzqC5LA0-t4AlFAMJJBVVCtKvCDPo/setWebhook?url=https://e79a-36-68-219-91.ap.ngrok.io
+# https://api.telegram.org/bot5940972519:AAEG66kzqC5LA0-t4AlFAMJJBVVCtKvCDPo/setWebhook?url=https://a56a-2001-448a-5122-1fcd-74ae-f2b4-cf78-213b.ap.ngrok.io
 
 from flask import Flask
 from flask import request
@@ -18,7 +18,7 @@ import json
  
 TOKEN = "5940972519:AAEG66kzqC5LA0-t4AlFAMJJBVVCtKvCDPo"
 app = Flask(__name__)
-intents = json.load(open('chatbot/intents.json'))
+intents = json.load(open('chatbot/intents.json', encoding="utf8"))
  
 def parse_message(message):
     print("message-->",message)

@@ -17,7 +17,7 @@ from keras.models import load_model
 
 
 lemmatizer = WordNetLemmatizer()
-op = open('chatbot/intents.json')
+op = open('chatbot/intents.json', encoding="utf8")
 intents = json.load(op)
 factory = StemmerFactory()
 stemmer = factory.create_stemmer()
@@ -91,7 +91,7 @@ def predictClasses(sentence):
 
 def getResponse(intentList, intentJson):
     # print(intentList[0]['probability'])
-    ERROR_THRESHOLD = 0.95
+    ERROR_THRESHOLD = 0.25
     print(intentList)
     if not intentList:
         return "Mohon maaf masukan tidak dikenali"
