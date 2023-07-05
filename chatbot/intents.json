@@ -217,6 +217,247 @@
         "context_set":"kelayakan"
     },
     {
+        "tag" : "pengertian plagiarisme",
+        "patterns" : ["pengertian plagiat plagiarisme", "plagiarisme adalah"],
+        "responses" :["Menurut Peraturan Menteri Pendidikan Nasional No. 17 Tahun 2010, “Plagiat adalah perbuatan secara sengaja atau tidak sengaja dalam memperoleh atau mencoba memperoleh kredit atau nilai untuk suatu karya ilmiah, dengan mengutip sebagian atau seluruh karya dan/atau karya ilmiah pihak lain yang diakui sebagai karya ilmiahnya, tanpa menyatakan sumber secara tepat dan memadai.”"],
+        "context_set": "plagiarisme"
+    },
+    {
+        "tag": "sampul depan",
+        "patterns" : ["sampul depan", "cover skripsi", "sampul tugas akhir skripsi"],
+        "responses" : ["Halaman Sampul harus memberikan informasi berupa logo UNEJ, judul, maksud penelitian, jenis karya ilmiah (skripsi/tesis/disertasi), identitas mahasiswa, nama institusi, dan tahun diterbitkan."],
+        "context_set":"sistematika penulisan"
+    },
+    {
+        "tag" : "logo pada sampul depan",
+        "patterns" : ["berapa besar ukuran logo univ uneversitas pada sampul kover cover depan skripsi"],
+        "responses" : ["logo Universitas Jember (berwarna) dengan diameter 5.0 cm."],
+        "context_set" : "sistematika penulisan"
+    },
+    {
+        "tag": "penulisan judul",
+        "patterns" : ["tulis judul tugas akhir", "tulis judul skripsi", "tulis judul"],
+        "responses" : ["ditulis dengan huruf kapital, singkat, jelas dan tidak multi tafsir tentang masalah yang diteliti."],
+        "context_set" : "sistematika penulisan"
+    },
+    {
+        "tag":"penulisan identitas",
+        "patterns" : ["tulis identitas nama nim pada cover sampul kover"],
+        "responses" : ["Identitas Mahasiswa: nama lengkap mahasiswa (tanpa gelar kesarjanaan) dan Nomor Induk Mahasiswa"],
+        "context_set": "sistematika penulisan"
+    },
+    {
+        "tag": "halaman persembahan",
+        "patterns" : ["halaman persembahan", "halaman sembah", "tulis halaman sembah"],
+        "responses" : ["Halaman persembahan berisi ucapan kepada siapa tugas akhir dipersembahkan dengan menggunakan bahasa baku dan tidak terkesan berlebihan"],
+        "context_set":"sistematika penulisan"
+    },
+    {
+        "tag" : "unduh format tugas akhir",
+        "patterns" :["unduh download format template tugas akhir skripsi"],
+        "responses" : ["https://unej.id/templatetugaskakhir"],
+        "context_set" :"sistematika penulisan"
+    },
+    {
+        "tag": "halaman moto",
+        "patterns" : ["halaman moto", "halaman moto", "tulis halaman moto"],
+        "responses" : ["Halaman untuk menuliskan penyemangat mahasiswa dalam penyelesaian skripsi. Moto bisa dikarang sendiri oleh penulis atau dikutip dari kitab suci atau kata-kata dari tokoh yang menginspirasi"],
+        "context_set":"sistematika penulisan"
+    },
+    {
+        "tag":"halaman orisinalitas",
+        "patterns" :["halaman orisinalitas", "halaman orisinalitas", "tulis halaman orisinalitas"],
+        "responses":["Halaman berisi pernyataan tertulis bermeterei 10.000 dari penulis bahwa tugas akhir yang disusun adalah hasil karyanya sendiri dengan mengikuti kaidah penulisan ilmiah dan belum pernah diajukan untuk memperoleh derajat kesarjanaan dari perguruan tinggi lain."],
+        "context_set":"sistematika penulisan"
+    },
+    {
+        "tag":"halaman persetujuan",
+        "patterns":["halaman persetujuan setuju", "halaman persetujuan setuju", "tulis halaman persetujuan setuju"],
+        "responses":["Halaman persetujuan memuat judul penelitian, nama dan NIM penyusun dengan tanggal persetujuan, serta nama tanda tangan dosen pembimbing dan dosen penguji."],
+        "context_set":"sistematika penulisan"
+    },
+    {
+        "tag": "halaman abstrak",
+        "patterns":["halaman abstrac abstrak", "halaman abstrac abstrak", "tulis halaman abstrac abstrak"],
+        "responses":["Abstrak atau Abstract ditulis dengan jumlah kata antara 200 sampai dengan 300. Abstrak (bahasa indonesia) dan abstract (bahasa inggris) merupakan ikhtisar/inti sari tugas akhir yang meliputi permasalahan, tujuan, metodologi penelitian, hasil, dan kesimpulan. Jika tugas akhir ditulis dengan menggunakan Bahasa Indonesia, maka abstrak harus ditulis menggunakan Bahasa Inggris. Demikian juga sebaliknya"],
+        "context_set":"sistematika penulisan"
+    },
+    {
+        "tag":"halaman ringkasan",
+        "patterns":["halaman ringkas", "halaman ringkas", "tulis halaman ringkas"],
+        "responses":["Halaman yang memberikan gambaran singkat poin-poin utama dari naskah tugas akhir dengan penjelasan tentang informasi dan ide terpenting tanpa menyalin dari teks naskah tugas akhir."],
+        "context_set":"sistematika penulisan"
+    },
+    {
+        "tag":"halaman prakata",
+        "patterns":["halaman prakata kata", "halaman prakata kata", "tulis halaman prakata kata"],
+        "responses":["Prakata berupa uraian singkat tentang maksud dari penulisan tugas akhir sekaligus ucapan terima kasih atau penghargaan kepada berbagai pihak yang telah membantu penyelesaian penyusunan tugas akhir, terutama ditujukan kepada dekan, direktur pascasarjana, ketua program studi, dosen penguji dan dosen pembimbing, dan dosen pembimbing akademik serta sponsor beasiswa apabila ada"],
+        "context_set":"sistematika penulisan"
+    },
+    {
+        "tag": "daftar isi",
+        "patterns" :["halaman prakata kata", "halaman prakata kata", "tulis halaman prakata kata"],
+        "responses":["Daftar isi terdiri atas urutan bab, subbab, dan anak subbab beserta nomor halaman yang disesuaikan dengan isi penyusunan tugas akhir."],
+        "context_set":"sistematika penulisan"
+    },
+    {
+        "tag":"daftar pustaka",
+        "patterns": ["halaman daftar pustaka dapus", "halaman daftar pustaka dapus", "tulis halaman daftar pustaka dapus"],
+        "responses":["Daftar pustaka merupakan pustaka yang menjadi sumber atau referensi atau acuan dalam penelitian penulisan tugas akhir. Pustaka yang tercantum dalam uraian naskah dan sebaliknya harus dituliskan di daftar pustaka. Daftar pustaka bisa berisi buku, artikel jurnal, majalah atau surat kabar baik cetak maupun online, wawancara, dan sebagainya."],
+        "context_set":"sistematika penulisan"
+    },
+    {
+        "tag":"gaya penulisan daftar pustaka",
+        "patterns" :["gaya yang guna tulis dapus daftar pustaka"],
+        "responses" :["gaya yang digunakan dalam penulisan dalam daftar pustaka adalah APA style"],
+        "context_set":"sistematika penulisan"
+    },
+    {
+        "tag":"halaman lampiran",
+        "patterns":["halaman lampiran lampir", "halaman lampiran lampir", "tulis halaman lampiran lampir"],
+        "responses":["Jika diperlukan, lampiran digunakan untuk menempatkan data atau keterangan lain yang berfungsi untuk melengkapi uraian yang telah disajikan dalam Bagian Utama. Lampiran yang perlu disertakan dikelompokkan menurut jenisnya, antara lain jadwal, tabel, daftar pertanyaan, gambar, grafik, desain. Lampiran wajib disediakan di media penyimpanan online yang bisa diakses, misal kawanda atau google drive (tidak dicetak)."],
+        "context_set":"sistematika penulisan"
+    },
+    {
+        "tag":"layout penulisan",
+        "patterns":["layout tulis"],
+        "responses":["Diketik dengan layout size A4 (21 × 29,7 cm), margin atas 4 cm, kiri 4 cm, bawah 3 cm, dan kanan 3 cm, dengan huruf Times New Roman ukuran 12pt, dan jarak antarbaris tulisan 1,5 spasi."],
+        "context_set":"format penulisan"
+    },
+    {
+        "tag" : "batas similarity",
+        "patterns" :["batas similarity, batas plagiarisme, minimal similarity"],
+        "responses" : ["batas similarity adalah 30%"],
+        "context_set" : "plagiarisme"
+    },
+    {
+        "tag":"margin atas",
+        "patterns":["margin atas"],
+        "responses":["4 cm"],
+        "context_set":"format penulisan"
+    },
+    
+    {
+        "tag":"margin bawah",
+        "patterns":["margin bawah"],
+        "responses":["3 cm"],
+        "context_set":"format penulisan"
+    },
+    {
+        "tag":"margin kiri",
+        "patterns":["margin kiri"],
+        "responses":["4 cm"],
+        "context_set":"format penulisan"
+    },
+    {
+        "tag":"margin kanan",
+        "patterns":["margin kanan"],
+        "responses":["3 cm"],
+        "context_set":"format penulisan"
+    },
+    {
+        "tag":"ukuran kertas",
+        "patterns":["ukur kertas"],
+        "responses":["A4"],
+        "context_set":"format penulisan"
+    },
+    {
+        "tag":"font",
+        "patterns":["ukur font", "font", "gaya huruf"],
+        "responses":["Times New Roman ukuran 12pt"],
+        "context_set":"format penulisan"
+    },
+    {
+        "tag":"penulisan bahasa asing",
+        "patterns":["tulis bahasa asing", "bukan bahasa indonesia"],
+        "responses":["font italyc"],
+        "context_set":"format penulisan"
+    },
+    {
+        "tag":"jarak baris",
+        "patterns":["jarak antar baris tulis"],
+        "responses":["1,5 spasi"],
+        "context_set":"format penulisan"
+    },
+    {
+        "tag":"aturan penulisan judul",
+        "patterns":["aturan format penulisan judul"],
+        "responses":["a. Berbentuk frasa, tidak berupa kalimat, dan tidak boleh diawali dengan kata kerja;\nb. Sebaiknya tidak lebih dari 15 kata (tidak termasuk kata sambung dan kata depan);\nc. Judul yang panjang dapat dibagi menjadi judul dan anak judul atau judul tambahan yang penulisannya dipisahkan oleh tanda titik dua (:) atau tanda kurung ((...)) dengan ukuran huruf yang sama;\nd. Ditulis dengan huruf kapital, bold, 14pt, jarak 1 spasi, dan tidak diakhiri dengan tanda titik."],
+        "context_set":"format penulisan"
+    },
+    {
+        "tag":"Penomoran halaman",
+        "patterns":["penomoran nomor halaman"],
+        "responses":["a. Halaman pada bagian awal laporan tugas akhir menggunakan angka Romawi kecil (i, ii, iii, dst.) yang diletakkan di bagian tengah bawah;\nb. Halaman pada bagian utama laporan tugas akhir menggunakan angka Arab (1, 2, 3, dst.) yang diletakkan di bagian kanan atas, termasuk pada halaman yang dicetak secara landscape;\nc. Pada halaman bab penomoran halaman di tengah bawah"],
+        "context_set":"format penulisan"
+    },
+    {
+        "tag":"total maksimal halaman",
+        "patterns":["total maksimal halaman"],
+        "responses":["40 halaman."],
+        "context_set":"format penulisan"
+    },
+    {
+        "tag":"halaman maksimal pendahuluan",
+        "patterns":["maksimal pendahuluan"],
+        "responses":["4 halaman"],
+        "context_set":"format penulisan"
+    },
+    {
+        "tag":"halaman maksimal tinjauan pustaka",
+        "patterns":["maksimal tinjauan tinjau pustaka"],
+        "responses":["8 halaman"],
+        "context_set":"format penulisan"
+    },
+    {
+        "tag":"halaman maksimal metodologi",
+        "patterns":["maksimal metodologi"],
+        "responses":["4 halaman"],
+        "context_set":"format penulisan"
+    },
+    {
+        "tag":"halaman maksimal hasil dan pembahasan",
+        "patterns":["maksimal hasil dan bahas"],
+        "responses":["20 halaman"],
+        "context_set":"format penulisan"
+    },
+    {
+        "tag":"halaman maksimal kesimpulan dan saran",
+        "patterns":["maksimal simpul dan saran"],
+        "responses":["1 halaman"],
+        "context_set":"format penulisan"
+    },
+    {
+        "tag":"halaman maksimal daftar pustaka",
+        "patterns":["maksimal daftar pustaka"],
+        "responses":["3 halaman"],
+        "context_set":"format penulisan"
+    },
+    {
+        "tag":"letak judul tabel",
+        "patterns":["letak judul tabel"],
+        "responses":["di atas tabel. jika 1 baris, judul tabel diletakan di tengah halaman, Jika lebih dari satu baris, penulisan judul menggunakan format menggantung (indent) sejajar dengan huruf pertama judul dan jarak antarbaris 1 spasi, termasuk jarak antarbaris di dalam tabel;"],
+        "context_set":"format penulisan"
+    },
+    {
+        "tag":"letak judul gambar",
+        "patterns":["letak judul gambar"],
+        "responses":["di bawah gambar. jika 1 baris, judul tabel diletakan di tengah halaman, Jika lebih dari satu baris, penulisan judul menggunakan format menggantung (indent) sejajar dengan huruf pertama judul dan jarak antarbaris 1 spasi, termasuk jarak antarbaris di dalam tabel;"],
+        "context_set":"format penulisan"
+    },
+    {
+        "tag":"font judul tabel atau gambar",
+        "patterns":["font judul tabel", "font judul gambar"],
+        "responses":["Sentence case, 11pt, tidak diakhiri dengan tanda titik (.)"],
+        "context_set":"format penulisan"
+    },
+    {
+        "tag":"ukuran font isi tabel",
+        "patterns":["ukur font isis tabel", "jarak spasi tabel"],
+        "responses":["Ukuran font isi tabel dapat diperkecil hingga 8pt. jarak baris isi tabel sebesar 1 spasi"],
+        "context_set":"format penulisan"
+    },
+    {
         "tag": "Tio Dharmawan",
         "patterns":["tio", "dharmawan"],
         "responses":["1. Data mining, \n2. text mining, \n3. Image, Video & Sound processing, \n4. Computer vison"],

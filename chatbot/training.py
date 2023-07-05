@@ -5,6 +5,8 @@ import json
 import pickle
 from xml.dom.minidom import Document
 import numpy as np
+import matplotlib.pyplot as plt
+from statistics import mean
 
 import nltk
 # nltk.download('punkt')
@@ -20,9 +22,10 @@ from keras.models import Sequential
 from keras.layers import Dense, Activation, Dropout
 from keras.optimizers import SGD
 
+import time
 # from symbol import factor
 
-
+start = time.time()
 lemmatizer = WordNetLemmatizer()
 op = open('chatbot/intents.json', encoding="utf8")
 intents = json.load(op)
@@ -80,7 +83,7 @@ trainY = list(training[:, 1])
 
 
 model = Sequential()
-model.add(Dense(128, input_shape =(len(trainX[0]), ), activation='relu')) #128 256 512 1024 2048
+model.add(Dense(len(trainX[0]), input_shape =(len(trainX[0]), ), activation='relu')) #128 256 512 1024 2048
 model.add(Dropout(0.5))
 model.add(Dense(64, activation='relu')) #64 128 256 512 1024 2048
 model.add(Dropout(0.5))
@@ -88,7 +91,14 @@ model.add(Dense(len(trainY[0]), activation='softmax'))
 
 
 # sgd = SGD(learning_rate=0.01, decay=1e-6, momentum=0.9, nesterov=True)
-sgd = SGD(learning_rate=0.01, decay=1e-6, momentum=0.6, nesterov=True)
+# sgd = SGD(learning_rate=0.01, decay=1e-6, momentum=0.8, nesterov=True)
+# sgd = SGD(learning_rate=0.01, decay=1e-6, momentum=0.7, nesterov=True)
+# sgd = SGD(learning_rate=0.01, decay=1e-6, momentum=0.6, nesterov=True)
+sgd = SGD(learning_rate=0.01, decay=1e-6, momentum=0.5, nesterov=True)
+# sgd = SGD(learning_rate=0.01, decay=1e-6, momentum=0.4, nesterov=True)
+# sgd = SGD(learning_rate=0.01, decay=1e-6, momentum=0.3, nesterov=True)
+# sgd = SGD(learning_rate=0.01, decay=1e-6, momentum=0.2, nesterov=True)
+# sgd = SGD(learning_rate=0.01, decay=1e-6, momentum=0.1, nesterov=True)
 model.compile(loss='categorical_crossentropy', optimizer=sgd, metrics=['accuracy'])
 
 
@@ -96,3 +106,19 @@ hist = model.fit(np.array(trainX), np.array(trainY), epochs= 1000, batch_size= 5
 model.save('chatbot/chatbot_model.h5', hist)
 
 model.summary()
+
+end = time.time()
+
+print(end-start)
+# print(hist.history)
+# loss_train = hist.history['loss']
+acc = hist.history['accuracy']
+epochs = range(0,1000)
+# plt.plot(epochs, loss_train, 'g', label='Training loss')
+plt.plot(epochs, acc, 'r', label ='training accuracy')
+# plt.title('Training loss')
+plt.title('Training accuracy')
+plt.xlabel('Epochs')
+plt.ylabel('Loss')
+plt.legend()
+plt.show()
